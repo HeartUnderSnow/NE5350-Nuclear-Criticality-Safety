@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material id="1" depletable="true">
+    <density units="sum"/>
+    <nuclide name="U234" ao="0.0003619114009814806"/>
+    <nuclide name="U235" ao="0.040490680355008565"/>
+    <nuclide name="U238" ao="0.9589619414796623"/>
+    <nuclide name="U236" ao="0.00018546676434767764"/>
+  </material>
+</materials>

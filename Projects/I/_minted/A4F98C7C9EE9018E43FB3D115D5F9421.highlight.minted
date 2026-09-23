@@ -1,0 +1,50 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import}\PYG{+w}{ }\PYG{n+nn}{openmc}
+\PYG{c+c1}{\PYGZsh{} Point OpenMC to the cross\PYGZus{}sections.xml file with all cross section data.}
+\PYG{n}{openmc}\PYG{o}{.}\PYG{n}{config}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}cross\PYGZus{}sections\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}/opt/nuclear\PYGZus{}data/endfb\PYGZhy{}vii.1\PYGZhy{}hdf5/cross\PYGZus{}sections.xml\PYGZdq{}}
+\PYG{c+c1}{\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}}
+\PYG{c+c1}{\PYGZsh{} Describe the materials of the problem.}
+\PYG{c+c1}{\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}}
+
+\PYG{n}{uranium} \PYG{o}{=} \PYG{n}{openmc}\PYG{o}{.}\PYG{n}{Material}\PYG{p}{()}
+\PYG{n}{uranium}\PYG{o}{.}\PYG{n}{add\PYGZus{}element}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}U\PYGZdq{}}\PYG{p}{,} \PYG{l+m+mf}{1.0}\PYG{p}{,} \PYG{n}{enrichment}\PYG{o}{=}\PYG{l+m+mf}{4.0}\PYG{p}{)}
+\PYG{n}{materials} \PYG{o}{=} \PYG{n}{openmc}\PYG{o}{.}\PYG{n}{Materials}\PYG{p}{([}\PYG{n}{uranium}\PYG{p}{])}
+\PYG{n}{materials}\PYG{o}{.}\PYG{n}{export\PYGZus{}to\PYGZus{}xml}\PYG{p}{()}
+\PYG{c+c1}{\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}}
+\PYG{c+c1}{\PYGZsh{} Describe the geometry of the problem.}
+\PYG{c+c1}{\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}}
+
+\PYG{n}{width} \PYG{o}{=} \PYG{l+m+mf}{6.5}
+
+\PYG{c+c1}{\PYGZsh{} Begin by defining a surface at the left and right.}
+\PYG{n}{left} \PYG{o}{=} \PYG{n}{openmc}\PYG{o}{.}\PYG{n}{XPlane}\PYG{p}{(}\PYG{l+m+mf}{0.0}\PYG{p}{)}
+\PYG{n}{left}\PYG{o}{.}\PYG{n}{boundary\PYGZus{}type} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}vacuum\PYGZdq{}}
+\PYG{n}{right} \PYG{o}{=} \PYG{n}{openmc}\PYG{o}{.}\PYG{n}{XPlane}\PYG{p}{(}\PYG{n}{width}\PYG{p}{)}
+\PYG{n}{right}\PYG{o}{.}\PYG{n}{boundary\PYGZus{}type} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}vacuum\PYGZdq{}}
+
+\PYG{c+c1}{\PYGZsh{} Combine surfaces together into a cell}
+\PYG{n}{cell} \PYG{o}{=} \PYG{n}{openmc}\PYG{o}{.}\PYG{n}{Cell}\PYG{p}{()}
+\PYG{n}{cell}\PYG{o}{.}\PYG{n}{region} \PYG{o}{=} \PYG{o}{+}\PYG{n}{left} \PYG{o}{\PYGZam{}} \PYG{o}{\PYGZhy{}}\PYG{n}{right}
+\PYG{n}{cell}\PYG{o}{.}\PYG{n}{fill} \PYG{o}{=} \PYG{n}{uranium}
+
+\PYG{n}{geom} \PYG{o}{=} \PYG{n}{openmc}\PYG{o}{.}\PYG{n}{Geometry}\PYG{p}{([}\PYG{n}{cell}\PYG{p}{])}
+\PYG{n}{geom}\PYG{o}{.}\PYG{n}{export\PYGZus{}to\PYGZus{}xml}\PYG{p}{()}
+
+\PYG{c+c1}{\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}}
+\PYG{c+c1}{\PYGZsh{} Configure the settings.}
+\PYG{c+c1}{\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}}
+
+\PYG{n}{settings} \PYG{o}{=} \PYG{n}{openmc}\PYG{o}{.}\PYG{n}{Settings}\PYG{p}{()}
+\PYG{n}{settings}\PYG{o}{.}\PYG{n}{particles} \PYG{o}{=} \PYG{l+m+mi}{100\PYGZus{}000}
+\PYG{n}{settings}\PYG{o}{.}\PYG{n}{batches} \PYG{o}{=} \PYG{l+m+mi}{100} \PYG{o}{+} \PYG{l+m+mi}{50}
+\PYG{n}{settings}\PYG{o}{.}\PYG{n}{inactive} \PYG{o}{=} \PYG{l+m+mi}{50}
+\PYG{c+c1}{\PYGZsh{} Create an initial uniform spatial source distribution over the domain.}
+\PYG{n}{bounds} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mf}{0.0}\PYG{p}{,} \PYG{l+m+mf}{0.0}\PYG{p}{,} \PYG{l+m+mf}{0.0}\PYG{p}{,} \PYG{n}{width}\PYG{p}{,} \PYG{l+m+mf}{0.0}\PYG{p}{,} \PYG{l+m+mf}{0.0}\PYG{p}{]}
+\PYG{n}{uniform\PYGZus{}dist} \PYG{o}{=} \PYG{n}{openmc}\PYG{o}{.}\PYG{n}{stats}\PYG{o}{.}\PYG{n}{Box}\PYG{p}{(}\PYG{n}{bounds}\PYG{p}{[:}\PYG{l+m+mi}{3}\PYG{p}{],} \PYG{n}{bounds}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{:])}
+\PYG{n}{settings}\PYG{o}{.}\PYG{n}{source} \PYG{o}{=} \PYG{n}{openmc}\PYG{o}{.}\PYG{n}{IndependentSource}\PYG{p}{(}\PYG{n}{space}\PYG{o}{=}\PYG{n}{uniform\PYGZus{}dist}\PYG{p}{)}
+\PYG{n}{settings}\PYG{o}{.}\PYG{n}{run\PYGZus{}mode} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}eigenvalue\PYGZdq{}}
+\PYG{n}{settings}\PYG{o}{.}\PYG{n}{export\PYGZus{}to\PYGZus{}xml}\PYG{p}{()}
+\PYG{c+c1}{\PYGZsh{} Run in parallel with four threads.}
+\PYG{n}{openmc}\PYG{o}{.}\PYG{n}{run}\PYG{p}{(}\PYG{n}{threads}\PYG{o}{=}\PYG{l+m+mi}{4}\PYG{p}{)}
+
+\end{MintedVerbatim}
