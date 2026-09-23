@@ -1,0 +1,496 @@
+%%%%%
+%@TheDoctorRAB
+%%%%%
+%
+%%%%%
+%standard report format for journal papers
+%%%%%
+%
+%%%%%
+%PDF tagging accessible file
+%compile with pdflatex
+%run $show-pdf-tags --xml filename.pdf
+%%%%%
+%
+%%%%%
+%REFERENCES
+%neup.bst - numbered citations in order of appearance, short author list with et al in reference section
+%nsf.bst - numbered citations in order of appearance, full author list in references section
+%standard.bst - citations with author last name with et al for more than 2 authors; full author list in references section
+%ans.bst is for ANS only.
+%
+%author = {Lastname, Firstname and Lastname, Firstname and Lastname, Firstname} for all bst formats
+%bst renders the author list itself
+%
+%author = {{Nuclear Regulatory Commission}} if the author is an organization, institution, etc., and not people
+%
+%title = {{}} for all
+%
+%for all - use \citep{-} - [1] or (Borrelli, 2021) in the text
+%standard.bst \cite{-} - Borrelli (2021) in the text
+%standard.bst lists references alphabetically
+%the rest list numerically
+%%%%%
+
+
+%%%%% enable tagging for accessibility
+\DocumentMetadata{
+    tagging=on,
+    check-tagging-status,
+    pdfversion=2.0,
+    pdfstandard=ua-2,
+    lang=en-US,
+    debug={log=all},
+    testphase={latest,tagpdf},
+    tagging-setup={math/setup={mathml-AF,mathml-SE}}
+}
+\tagpdfsetup{math/alt/use}
+%%%%%
+
+
+%%%%% general
+\documentclass[11pt,a4paper]{article}
+\usepackage[lmargin=1in,rmargin=1in,tmargin=1in,bmargin=1in]{geometry}
+\usepackage[pagewise]{lineno} %linenumbering restarts each page
+%\usepackage[running]{lineno} %linenumbering continuous
+\usepackage{mmap} %helps make pdfs copy and paste
+\usepackage{setspace}
+\usepackage{ulem} %strikethrough - do not \sout{\cite{}}
+\usepackage[pdftex,dvipsnames]{xcolor,colortbl} %change font color
+\usepackage{graphicx}
+\usepackage{tablefootnote}
+\usepackage{footnotehyper}
+\usepackage{float}
+%\usepackage{mypythonhighlight,verbatim}
+%\usepackage{subfig}
+\usepackage[yyyymmdd]{datetime} %date format
+\renewcommand{\dateseparator}{.}
+%\graphicspath{{$TEXIMG/}} %path to graphics
+\setcounter{secnumdepth}{5} %set subsection to nth level
+\usepackage{needspace}
+\usepackage[stable,hang,flushmargin]{footmisc} %footnotes in section titles and no indent; standard.bst
+\usepackage[inline]{enumitem} %https://www.tug.org/texlive//Contents/live/texmf-dist/doc/latex-dev/latex-lab/latex-lab-enumitem.pdf
+\usepackage{boldline}
+\usepackage{makecell}
+\usepackage{booktabs}
+\usepackage{amssymb}
+\usepackage{gensymb}
+\usepackage{amsmath,nicefrac}
+\usepackage{physics}
+\usepackage{lscape}
+\usepackage{array}
+\usepackage{chngcntr}
+\usepackage{sectsty}
+\usepackage{textcomp}
+\usepackage{lastpage}
+\usepackage{xargs} %for \newcommandx
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes} %makes colored boxes for commenting
+\usepackage{soul}
+\usepackage{color}
+\usepackage{marginnote}
+\usepackage[figure,table]{totalcount}
+\usepackage{parskip}
+%%%%%
+
+
+%%%%% links and tags
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=blue,
+    pdftitle={Homework},
+    pdfauthor={R. A. Borrelli},
+    pdfkeywords={homework},
+    pdflanguage={en-US},
+    pdfsubject={homework},
+    pdfdisplaydoctitle=true
+}
+\usepackage[capitalise]{cleveref} %must be loaded after hyperref
+%%%%%
+
+
+%%%%% tikz
+\usepackage{pgf}
+\usepackage{tikz} % required for drawing custom shapes
+\usetikzlibrary{shapes,arrows,automata,trees}
+%%%%%
+
+
+%%%%% fonts
+\usepackage{times}
+%arial - uncomment next two lines
+%\usepackage{helvet}
+%\renewcommand{\familydefault}{\sfdefault}
+%%%%%
+
+
+%%%%% references
+%\usepackage[round,semicolon]{natbib} %for (Borrelli 2021; Clooney 2019) - standard.bst
+\usepackage[numbers,sort&compress]{natbib} %for [1-3] - nsf.bst, neup.bst
+\setlength{\bibsep}{7pt} %sets space between references
+%\renewcommand{\bibsection}{} %suppresses large 'references' heading
+%\renewcommand\bibpreamble{\vspace{\baselineskip}} %sets spacing after heading if not using default references heading
+%%%%%
+
+
+%%%%% tables and figures
+\usepackage{longtable} %need to put label at top under caption then \\ - use spacing
+\usepackage{tablefootnote}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{tabto} %general tabbed spacing
+\usepackage{pdfpages}
+\usepackage{wrapfig} %wraps figures around text
+\setlength{\intextsep}{0.00mm}
+\setlength{\columnsep}{1.00mm}
+\usepackage[singlelinecheck=false,labelfont=bf]{caption}
+\usepackage{subcaption}
+\captionsetup[table]{justification=centering,skip=5pt,labelformat={default},labelsep=period,name={Table}} %sets a space after table caption
+\captionsetup[figure]{justification=justified,skip=5pt,labelformat={default},labelsep=period,name={Figure}} %sets space above caption, 'figure' format
+\captionsetup[wrapfigure]{justification=centering,aboveskip=0pt,belowskip=0pt,labelformat={default},labelsep=period,name={Fig.}} %sets space above caption, 'figure' format
+\captionsetup[wraptable]{justification=centering,aboveskip=0pt,belowskip=0pt,labelformat={default},labelsep=period,name={Table}} %sets space above caption, 'figure' format
+%%%%%
+
+
+%%%%% watermark
+%\usepackage[firstpage,vpos=0.63\paperheight]{draftwatermark}
+%\SetWatermarkText{\shortstack{DRAFT\\do not distribute}}
+%\SetWatermarkScale{0.20}
+%%%%%
+
+
+%%%%% cross referencing files
+%\usepackage{xr} %for revisions - will cross reference from one file to here
+%\externaldocument{/path/to/auxfilename} %aux file needed
+%%%%%
+
+
+%%%%% toc and glossaries
+\usepackage[toc,title]{appendix}
+\usepackage[acronym,nomain,nonumberlist]{glossaries}
+\makenoidxglossaries
+%do not load titlesec,titletoc
+%%%%%
+
+
+%%%%% editing
+\newcommand{\edit}[1]{\textcolor{blue}{#1}} %shortcut for changing font color on revised text
+\newcommand{\fn}[1]{\footnote{#1}} %shortcut for footnote tag
+\newcommand*\sq{\mathbin{\vcenter{\hbox{\rule{.3ex}{.3ex}}}}} %makes a small square as a separator $\sq$
+%\newcommand{\sk}[1]{\sout{#1}} %shortcut for default strikethrough - do not sk through citep
+\newcommand\sk{\bgroup\markoverwith{\textcolor{red}{\rule[0.5ex]{1pt}{1pt}}}\ULon} %strikethrough with red line; not in \section{}
+%\st{} does strikethrough using soul package but does not like acronyms
+\newcommand{\blucell}{\cellcolor{aliceblue}} %use to shade in table cell
+\newcommand{\grycekk}{\cellcolor{lightgray}} %use to shade in table cell
+\newcommand{\whicell}{\cellcolor{antiquewhite}} %use to shade in table cell
+%%%%%
+
+
+%%%%% colors
+%http://latexcolor.com/
+%https://en.wikibooks.org/wiki/LaTeX/Colors#:~:text=black%2C%20blue%2C%20brown%2C%20cyan,be%20available%20on%20all%20systems.
+\definecolor{aliceblue}{rgb}{0.94, 0.97, 1.0}
+\definecolor{antiquewhite}{rgb}{0.98, 0.92, 0.84}
+\definecolor{lightmauve}{rgb}{0.86, 0.82, 1.0}
+\definecolor{brilliantlavender}{rgb}{0.96, 0.73, 1.0}
+\definecolor{brandeisblue}{rgb}{0.0, 0.44, 1.0}
+\definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+
+\newcommand{\x}{\cellcolor{aliceblue}} %use to shade in table cell
+\newcommand{\y}{\cellcolor{lightgray}} %use to shade in table cell
+\newcommand{\z}{\cellcolor{antiquewhite}} %use to shade in table cell
+%%%%%
+
+
+%%%%% acronyms
+\newcommand{\acf}{\acrfull} %full acronym
+\newcommand{\acl}{\acrlong} %long acronym
+\newcommand{\acs}{\acrshort} %short acronym
+
+\newcommand{\acfp}{\acrfullpl} %full acronym plural
+\newcommand{\aclp}{\acrlongpl} %long acronym plural
+\newcommand{\acsp}{\acrshortpl} %short acronym plural
+%%%%%
+
+
+%%%%% todonotes
+\newcommandx{\cmt}[2][1=]{\todo[author=\textbf{STRUCTURE},tickmarkheight=0.15cm,linecolor=red,backgroundcolor=red!25,bordercolor=black,#1]{#2}}
+\newcommandx{\con}[2][1=]{\todo[author=\textbf{CONTENT},tickmarkheight=0.15cm,linecolor=brilliantlavender,backgroundcolor=brilliantlavender,bordercolor=black,#1]{#2}}
+\newcommandx{\rab}[2][1=]{\todo[noline,author=\textbf{RAB},backgroundcolor=Plum!25,bordercolor=black,#1]{#2}}
+
+
+%\newcommandx{\jon}[2][1=]{\todo[noline,author=\textbf{ATTN: Johnson},backgroundcolor=blue!25,bordercolor=black,#1]{#2}}
+%\newcommandx{\han}[2][1=]{\todo[noline,author=\textbf{ATTN: Haney},backgroundcolor=OliveGreen!25,bordercolor=black,#1]{#2}}
+%\newcommandx{\rab}[2][1=]{\todo[author=\textbf{RAB},tickmarkheight=0.15cm,linecolor=Plum,backgroundcolor=Plum!25,bordercolor=black,#1]{#2}}
+%\newcommandx{\han}[2][1=]{\todo[author=\textbf{ATTN: Haney},tickmarkheight=0.15cm,linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
+%\newcommandx{\jon}[2][1=]{\todo[author=\textbf{ATTN: Johnson},tickmarkheight=0.15cm,linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+
+
+% highlighting
+\DeclareRobustCommand{\hlc}[1]{{\sethlcolor{LimeGreen}\hl{#1}}}
+\makeatletter
+    \if@todonotes@disabled
+    \newcommand{\hlh}[2]{#1}
+    \else
+    \newcommand{\hlh}[2]{\han{#2}\hlc{#1}}
+    \fi
+    \makeatother
+
+\DeclareRobustCommand{\hld}[1]{{\sethlcolor{CornflowerBlue}\hl{#1}}}
+\makeatletter
+    \if@todonotes@disabled
+    \newcommand{\hlj}[2]{#1}
+    \else
+    \newcommand{\hlj}[2]{\jon{#2}\hld{#1}}
+    \fi
+    \makeatother
+
+\DeclareRobustCommand{\hlf}[1]{{\sethlcolor{lightmauve}\hl{#1}}}
+\makeatletter
+    \if@todonotes@disabled
+    \newcommand{\hlb}[2]{#1}
+    \else
+    \newcommand{\hlb}[2]{\rab{#2}\hlf{#1}}
+    \fi
+    \makeatother
+%%%%%
+
+
+%%%%% table alignments
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}} %uses \raggedright with m,p{} in table column
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}} %uses \raggedright with m,p{} in table column
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}} %uses \raggedright with m,p{} in table column
+%%%%%
+
+
+%%%%% table contents
+\makeatletter
+\renewcommand\tableofcontents{%
+    \@starttoc{toc}%
+}
+\makeatother
+
+\makeatletter
+\renewcommand\listoffigures{%
+    \@starttoc{lof}%
+}
+\makeatother
+
+\makeatletter
+\renewcommand\listoftables{%
+    \@starttoc{lot}%
+}
+\makeatother
+
+\makeatletter
+\newcommand*\ftp{\fontsize{16.5}{17.5}\selectfont}
+\makeatother
+%%%%%
+
+
+%%%%% header and footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} %move page number to bottom right
+%\renewcommand{\headrulewidth}{0pt} %turn off line in header
+\lhead{\scriptsize NE 5350 — Nuclear Criticality Safety}
+\chead{\scriptsize \textit{Homework 1}}
+\rhead{\scriptsize \today}
+\rfoot{\thepage}
+%%%%%
+
+
+%%%%% acronyms
+\input{$ACRONYM/acronyms}
+%\input{../acronyms/acronyms}
+%%%%%
+
+
+\begin{document}
+
+
+\begin{titlepage}
+    \title{
+        NE 5350 -- Nuclear Criticality Safety\\
+        Homework #1\\
+    }
+    \author{
+        Gabriel Lewis
+        \\ \\ \\
+        University of Idaho $\sq$ Idaho Falls Center for Higher Education\\
+        Nuclear Engineering and Industrial Management Department
+        \\ \\ \\
+        galewis99@outlook.com
+    }
+\clearpage %not have page number on title page
+\maketitle
+\vspace*{\fill}
+\begin{flushright}{
+        Total -- 100
+}
+\end{flushright}
+\thispagestyle{empty} %start with page number 1 on second page
+\end{titlepage}
+
+
+\section{Mayak 1958 Criticality Accident}
+Using the concepts of exponential power growth and reactivity feedback discussed in class,
+describe the Mayak 1958 criticality accident. \\
+
+The uranyl nitrate solution, enriched at 90$\%$, was sub-critical in the test tank before the accident. The tank belonged to a facility built to measure the critical parameters of highly enriched uranium solutions, so it was not a safe-geometry vessel by design; instead, the amount of solution and its shape in the upright tank kept the system sub-critical. In this condition the reactivity is static, meaning that $\rho$ is constant in time, and
+
+\begin{equation}
+\rho = \frac{k_{\mathrm{eff}} - 1}{k_{\mathrm{eff}}} < 0.
+\label{eq:rho}
+\end{equation}
+
+Reactivity determines how the neutron population changes in time. For $\rho < 0$ the population decays or, in the presence of an external neutron source as in this facility, settles at a constant sub-critical multiplication level. For $\rho > 0$ the population grows exponentially. Reactivity feedback acts in the other direction: the neutron population is proportional to the fission rate, and therefore to power, so a growing population deposits energy in the solution. The resulting heating, thermal expansion, radiolytic gas generation, and expulsion of solution change $\rho$. In fissile solutions this feedback is negative, so it opposes the growth of the neutron population. \\
+
+After completing an experiment, the experimentalists needed to drain the solution from the test tank into several safe-geometry tanks. To speed up the draining, three of them unbolted the test tank from its mounting and tipped it. As the tank tipped, the solution collected on one side and more-or-less resembled the geometry of a sphere (\cref{fig:tipping}), which reduces neutron leakage. At the same time, the bodies of the experimentalists reflected neutrons back into the solution. The combination of the solution's geometry and the neutron reflection from the experimentalists' bodies inserted positive reactivity, so that $\rho > 0$ and the neutron population grew exponentially. \\
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{HW1/Figures/cylindertoSpherlike.png}
+    \caption{From Solution Sitting Flat in Cylinder to Becoming Sphere-like}
+    \label{fig:tipping}
+\end{figure}
+
+The excursion was a single power pulse of roughly $2.3 \times 10^{17}$ fissions. %TODO: cite Vargo, PNNL-12199 (1999) and LA-13638 once the .bib entries are added
+As the power rose, part of the solution was ejected from the tank. The ejection changed the geometry of the solution and removed fissile material from the compact configuration, which is a large negative reactivity feedback that terminated the pulse. Three of the four experimentalists died within about a week, and the fourth, who was about 3 m from the tank, developed acute radiation syndrome. \\
+
+Consider the production and destruction of neutrons and delayed neutron precursors (DNPs), which have been provided during the lecture, as an approximation of a zero-dimensional system:
+
+\begin{equation}
+\frac{d}{dt}n(t) = \frac{\rho(t) - \beta}{\Lambda} n(t) + \sum_{d=1}^{N_D} \lambda_{d}C_{d}(t)
+\label{eq:n}
+\end{equation}
+\begin{equation}
+\frac{d}{dt}C_{d}(t) = \frac{\beta_{d}}{\Lambda} n(t) - \lambda_{d}C_{d}(t)
+\label{eq:C}
+\end{equation}
+
+Where $n(t)$ is the neutron population, $\rho$ is reactivity, $\beta_{d}$ is the effective delayed neutron fraction of precursor group $d$, $\beta = \sum_{d=1}^{N_D} \beta_{d}$ is the total effective delayed neutron fraction, $\lambda_{d}$ is the decay constant [s$^{-1}$], $\Lambda$ is the mean neutron generation time, and $C_{d}$ is the concentration of DNP group $d$. With these terms defined, the equations can be written in matrix form:
+
+\begin{equation}
+A(t) =
+\begin{pmatrix}
+\dfrac{\rho(t)-\beta}{\Lambda} & \lambda_1 & \lambda_2 & \cdots & \lambda_{N_D} \\[1.5ex]
+\dfrac{\beta_1}{\Lambda} & -\lambda_1 & & & \\[1.5ex]
+\dfrac{\beta_2}{\Lambda} & & -\lambda_2 & & \\[1.5ex]
+\vdots & & & \ddots & \\[1.5ex]
+\dfrac{\beta_{N_D}}{\Lambda} & & & & -\lambda_{N_D}
+\end{pmatrix}
+\end{equation}
+
+\begin{equation}
+\vec{x}(t) =
+\begin{pmatrix}
+n(t) \\
+C_1(t) \\
+\vdots \\
+C_{N_D}(t)
+\end{pmatrix}
+\end{equation}
+
+\begin{equation}
+\frac{d}{dt}\vec{x}(t) = A(t)\vec{x}(t)
+\label{eq:xdot}
+\end{equation}
+
+This system is linear in $\vec{x}$ for any $A(t)$. Following a reactivity insertion that holds $\rho$ constant, $A$ is constant and the solution is
+
+\begin{equation}
+\vec{x}(t) = \exp(A t)\,\vec{x}_{0}
+\label{eq:sol}
+\end{equation}
+
+such that $\exp$ is a matrix exponential. The growth rate is set by the dominant eigenvalue of $A$. For $\rho < 0$ this eigenvalue is negative and the population decays. For $0 < \rho < \beta$ it is positive and the growth is limited by the delayed neutrons. For $\rho > \beta$ the system is prompt critical and the population grows on the time scale of the prompt neutron generation time $\Lambda$. Reactivity feedback makes $\rho$ depend on the state, $\rho = \rho(\vec{x})$, so $A$ depends on $\vec{x}$, the system becomes nonlinear, and \cref{eq:sol} no longer applies. In the Mayak accident, this negative feedback and the ejection of solution reduced $\rho$ and ended the exponential growth.
+
+\newpage
+
+
+\section{Demon Core 1 and 2}
+In the first “Demon Core” criticality accident, the operator remained in the room after the
+accident thereby significantly increasing the dose that he received. In the second “Demon
+Core” criticality accident, the operator described physically separating the two hemi-spheres
+though the power excursion had already been terminated by reactivity feedback effects. For
+both of these criticality safety accidents, describe how the physics of reactivity feedback could
+have been used to modify the experiments to make them safer.
+
+
+
+
+
+\newpage
+
+
+
+
+
+
+
+%%%%% header and footer
+\pagestyle{fancyplain}
+\fancyhf{} %clear header and footer
+\renewcommand{\headrulewidth}{0pt} %set line thickness in header; uncomment as is to remove line
+\rfoot{\fancyplain{}{\thepage}}
+\nolinenumbers
+%%%%%
+
+
+%%%%%%% citations
+%
+%%% make sure $BIBREF contains the path to each bib file in .bashrc
+%%% make sure Overleaf has the latexmkrc pointing to where the bib and bst are located
+%
+\bibliographystyle{nsf}
+\setlength{\bibhang}{0pt}
+\bibliography{
+}
+%
+%%%%%%%
+
+
+\section*{Tables}
+
+{%
+\let\oldnumberline\numberline%
+\renewcommand{\numberline}{\tablename~\oldnumberline}%
+\listoftables%
+}
+
+
+
+
+
+%\begin{figure}[h!]
+%    \centering
+%    \includegraphics[width=0.X\textwidth]{filename}
+%    \caption{Descriptive caption}
+%    \label{fig-label-name}
+%\end{figure}
+
+
+
+
+%%%%% formatting
+    \renewcommand{\thesection}{\Roman{section}}
+%%%%%
+
+
+%    \section{\acs{mcp} input decks} \label{app-mcnp}
+
+
+\newpage
+
+
+    \section{Acronyms}
+    \printnoidxglossary[title={}]
+
+
+\end{appendices}
+
+
+\end{document}

@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99e (TeX Live 2026/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 1-nuclear-engineering-basics-project.aux
+The style file: nsf.bst
+Database file #1: references.bib
+Warning--empty pages in Vega2015
+You've used 2 entries,
+            2823 wiz_defined-function locations,
+            1073 strings with 13016 characters,
+and the built_in function-call counts, 790 in all, are:
+= -- 33
+> -- 32
+< -- 1
++ -- 12
+- -- 10
+* -- 48
+:= -- 92
+add.period$ -- 7
+call.type$ -- 2
+change.case$ -- 4
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 89
+empty$ -- 74
+format.name$ -- 12
+if$ -- 156
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 28
+newline$ -- 28
+num.names$ -- 2
+pop$ -- 42
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 6
+stack$ -- 0
+substring$ -- 0
+swap$ -- 57
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 2
+width$ -- 3
+write$ -- 40
+(There was 1 warning)

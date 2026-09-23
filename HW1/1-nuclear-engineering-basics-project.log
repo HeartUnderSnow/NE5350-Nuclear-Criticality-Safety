@@ -1,0 +1,4100 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026/Arch Linux) (preloaded format=xelatex 2026.6.1)  20 SEP 2026 23:29
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**1-nuclear-engineering-basics-project.tex
+(./1-nuclear-engineering-basics-project.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/share/texmf-dist/tex/latex/latex-lab/documentmetadata-support.ltx
+(/usr/share/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement-testphas
+e.sty
+Package: pdfmanagement-testphase 2026-01-23 v0.96y LaTeX PDF management bundle
+ (/usr/share/texmf-dist/tex/latex/tagpdf/tagpdf-base.sty
+Package: tagpdf-base 2026-01-29 v0.99y part of tagpdf - provide base, no-op ver
+sions of the user commands 
+\c@g__tag_MCID_abs_int=\count271
+\c@g__tag_struct_abs_int=\count272
+)
+(/usr/share/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement.ltx
+File: pdfmanagement.ltx 2026-01-23 v0.96y PDF management code
+\g__pdfmanagement_EmbeddedFiles_int=\count273
+\l__pdfmeta_xmp_indent_int=\count274
+\g_pdffile_embed_pdfa_int=\count275
+\g_pdffile_embed_nonpdfa_int=\count276
+)))
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count277
+\g__pdfannot_backend_int=\count278
+\g__pdfannot_backend_link_int=\count279
+)
+(/usr/share/texmf-dist/tex/latex/pdfmanagement-testphase/l3backend-testphase-xe
+tex.def
+File: l3backend-testphase-xetex.def 2026-01-23 v0.96y LaTeX PDF management bund
+le backend support:XeTeX
+\l__pdf_backend_tmpa_box=\box53
+\l__pdf_backend_tmpb_box=\box54
+\g__pdf_backend_resourceid_int=\count280
+\g__pdf_backend_name_int=\count281
+\g__pdf_backend_page_int=\count282
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-latest.sty
+Package: latex-lab-testphase-latest 2025-09-13 v0.1d latex-lab modules
+
+(/usr/share/texmf-dist/tex/latex/tagpdf/tagpdf.sty
+Package: tagpdf 2026-01-29 v0.99y  LaTeX kernel code for PDF tagging 
+\l__tag_tmpa_int=\count283
+\l__tag_tmpa_box=\box55
+\l__tag_tmpb_box=\box56
+\l__tag_loglevel_int=\count284
+\g__tag_unique_cnt_int=\count285
+\l__tag_tag_stop_int=\count286
+
+(/usr/share/texmf-dist/tex/latex/tagpdf/tagpdf-mc-code-generic.sty
+Package: tagpdf-mc-code-generic 2026-01-29 v0.99y part of tagpdf - code related
+ to marking chunks - generic mode
+\g__tag_mc_marks=\marks4
+)
+\g__tag_tree_id_pad_int=\count287
+\c@g__tag_parenttree_obj_int=\count288
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf2.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-mathml.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-latex-book.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-latex.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-latex-lab.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf2.def
+
+\g__tag_struct_AFobj_int=\count289
+\g__tag_para_begin_int=\count290
+\g__tag_para_end_int=\count291
+\g__tag_para_main_begin_int=\count292
+\g__tag_para_main_end_int=\count293
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-names.sty
+Package: latex-lab-testphase-names 2025-08-14 v0.8f Code related to the names o
+f tags
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-new-or-2.sty
+Package: latex-lab-testphase-new-or-2 2025-05-10 v0.86d Changes to the output r
+outine
+
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-footnotes.ltx
+File: latex-lab-footnotes.ltx 2025-07-04 v0.8o changes to the footnote interfac
+es
+\footnotemargin=\dimen148
+\g_fnote_id_int=\count294
+))
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-block.sty
+Package: latex-lab-testphase-block 2025-07-26 v0.9k blockenv implementation
+
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-kernel-changes.sty
+Package: latex-lab-kernel-changes 2025-07-09 v0.85i General kernel and class ch
+anges
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-context.sty
+Package: latex-lab-testphase-context 2025-10-09 v0.5b Providing context for ins
+tance, etc.
+)
+
+LaTeX template Info: Declaring template type 'blockenv' taking 1 argument(s)
+(template)           on line 96.
+
+
+LaTeX template Info: Declaring template type 'block' taking 1 argument(s) on
+(template)           line 97.
+
+
+LaTeX template Info: Declaring template type 'para' taking 1 argument(s) on
+(template)           line 98.
+
+
+LaTeX template Info: Declaring template type 'list' taking 1 argument(s) on
+(template)           line 99.
+
+
+LaTeX template Info: Declaring template type 'item' taking 1 argument(s) on
+(template)           line 100.
+
+\c@maxblocklevels=\count295
+\l__par_start_skip=\skip49
+\l__block_botsep_skip=\skip50
+\l__block_parbotsep_skip=\skip51
+\l__block_parindent_dim=\dimen149
+\l__block_counter_start_int=\count296
+\l__block_one_label_box=\box57
+\g__block_labels_box=\box58
+\l__block_tmpa_skip=\skip52
+\l__block_topsepadd_skip=\skip53
+\l__block_effective_top_skip=\skip54
+LaTeX Info: Redefining \centering on input line 1476.
+LaTeX Info: Redefining \raggedleft on input line 1477.
+LaTeX Info: Redefining \raggedright on input line 1478.
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-sec.sty
+Package: latex-lab-testphase-sec 2025-10-20 v0.84k Code related to the tagging 
+of sectioning commands
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-toc.sty
+Package: latex-lab-testphase-toc 2025-07-02 v0.85h  Code related to the tagging
+ of toc-like lists
+\g__tag_toc_level_int=\count297
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-minipage.sty
+Package: latex-lab-testphase-minipage 2025-05-10 v0.81g Code related to the tag
+ging of minipages and parboxes
+
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-new-or-1.sty
+Package: latex-lab-testphase-new-or-1 2025-05-10 v0.85d Temporary output patche
+s for tagging and better link support -- no longer active
+))
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-graphic.sty
+Package: latex-lab-testphase-graphic 2025-09-25 v0.80i Code related to the tagg
+ing of graphics
+\g__tag_graphic_int=\count298
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-float.sty
+Package: latex-lab-testphase-float 2025-10-17 v0.81l Code related to the taggin
+g of floats
+\g__tag_float_int=\count299
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-bib.sty
+Package: latex-lab-testphase-bib 2025-05-09 v0.81c Code related to the tagging 
+of bibliography and cite command
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-text.sty
+Package: latex-lab-testphase-text 2025-05-10 v0.85f Code related to the tagging
+ of various small text commands
+LaTeX Info: Redefining \mbox on input line 84.
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-marginpar.sty
+Package: latex-lab-testphase-marginpar 2025-07-23 v0.85h Changes related to the
+ tagging of the margin notes
+\g__kernel_marginpar_int=\count300
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-title.sty
+Package: latex-lab-testphase-title 2025-03-08 v0.85d Changes related to the tag
+ging of the title
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-table.sty
+Package: latex-lab-testphase-table 2025-08-01 v0.85s Code related to the taggin
+g of tables
+
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen150
+\ar@mcellbox=\box59
+\extrarowheight=\dimen151
+\NC@list=\toks17
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box60
+))
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-math.sty
+Package: latex-lab-testphase-math 2025-03-10 v0.8d code related to the math tag
+ging
+
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-math.ltx
+File: latex-lab-math.ltx 2025-10-02 v0.6w Grab all the math(s) and tag it (expe
+riments)
+\l__math_tmpa_skip=\skip57
+\g__math_mathml_total_int=\count301
+\g__math_mathml_int=\count302
+\g__math_math_total_int=\count303
+\g__math_mathml_AF_found_int=\count304
+\g__math_mathml_AF_attached_int=\count305
+\l__math_tmpa_box=\box61
+\l__math_mathstyle_int=\count306
+\g__math_mathchoice_int=\count307
+\l__math_grab_env_int=\count308
+\g__math_postdisplaypenalty_int=\count309
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-mathpkg.ltx
+File: latex-lab-mathpkg.ltx 2025-06-20 v0.1c mathpkg adaptions
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-mathintent.ltx
+File: latex-lab-mathintent.ltx 2025-08-03 v0.1c MathML intent attributes
+))
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-firstaid.sty
+Package: latex-lab-testphase-firstaid 2025-11-03 v2025-11-03 Temporary patches 
+to external packages needed for the tagging project
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-tikz.sty
+Package: latex-lab-testphase-tikz 2025-09-27 v0.80d Code related to the tagging
+ of tikz pictures
+))
+(/usr/share/texmf-dist/tex/latex/latex-tagging-status/latex-tagging-status.ltx
+File: latex-tagging-status.ltx 2026-02-12
+)
+(/usr/share/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement-firstaid
+.sty
+Package: pdfmanagement-firstaid 2026-01-23 v0.96y LaTeX PDF management bundle /
+ firstaid-patches
+
+Package pdfmanagement Info: loading pdfmanagement firstaid code for pgf
+
+)
+
+Package tagpdf Warning: engine/output mode xetex doesn't support the interword
+(tagpdf)                spaces
+
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count310
+\c@section=\count311
+\c@subsection=\count312
+\c@subsubsection=\count313
+\c@paragraph=\count314
+\c@subparagraph=\count315
+\c@figure=\count316
+\c@table=\count317
+\abovecaptionskip=\skip58
+\belowcaptionskip=\skip59
+\bibindent=\dimen152
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count318
+\Gm@cntv=\count319
+\c@Gm@tempcnt=\count320
+\Gm@bindingoffset=\dimen153
+\Gm@wd@mp=\dimen154
+\Gm@odd@mp=\dimen155
+\Gm@even@mp=\dimen156
+\Gm@layoutwidth=\dimen157
+\Gm@layoutheight=\dimen158
+\Gm@layouthoffset=\dimen159
+\Gm@layoutvoffset=\dimen160
+\Gm@dimlist=\toks19
+)
+(/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2026/02/16 line numbers on paragraphs v5.7
+
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count321
+)
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\linenopenalty=\count322
+\output=\toks20
+\linenoprevgraf=\count323
+\linenumbersep=\dimen161
+\linenumberwidth=\dimen162
+\c@linenumber=\count324
+\c@pagewiselinenumber=\count325
+\c@LN@truepage=\count326
+\c@internallinenumber=\count327
+\c@internallinenumbers=\count328
+\quotelinenumbersep=\dimen163
+\bframerule=\dimen164
+\bframesep=\dimen165
+\bframebox=\box62
+)
+(/usr/share/texmf-dist/tex/latex/mmap/mmap.sty
+Package: mmap 2008/08/11 v1.03 CMAP support for math in PDF
+
+
+Package mmap Warning: pdftex not detected - will not do anything.
+
+) (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(/usr/share/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box63
+\UL@hyphenbox=\box64
+\UL@skip=\skip60
+\UL@hook=\toks21
+\UL@height=\dimen166
+\UL@pe=\count329
+\UL@pixel=\dimen167
+\ULC@box=\box65
+Package: ulem 2019/11/18
+\ULdepth=\dimen168
+)
+(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
+)
+(/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/usr/share/texmf-dist/tex/latex/pdfmanagement-testphase/xcolor-patches-tmp-ltx
+.sty
+Package: xcolor-patches-tmp-ltx 2026-01-23 v0.96y patch xcolor for l3color
+) (/usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+\everycr=\toks22
+\minrowclearance=\skip61
+\rownum=\count330
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+)
+\Gin@req@height=\dimen169
+\Gin@req@width=\dimen170
+)
+(/usr/share/texmf-dist/tex/latex/tablefootnote/tablefootnote.sty
+Package: tablefootnote 2014/01/26 v1.1c Table foot notes (HMM)
+
+(/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+(/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count331
+\calc@Bcount=\count332
+\calc@Adimen=\dimen171
+\calc@Bdimen=\dimen172
+\calc@Askip=\skip62
+\calc@Bskip=\skip63
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count333
+\calc@Cskip=\skip64
+)
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+)))
+(/usr/share/texmf-dist/tex/latex/footnotehyper/footnotehyper.sty
+Package: footnotehyper 2025/11/15 v1.1f hyperref aware footnote.sty (JFB)
+\FNH@notes=\box66
+\FNH@width=\dimen173
+\FNH@toks=\toks23
+)
+(/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count334
+\float@exts=\toks24
+\float@box=\box67
+\@float@everytoks=\toks25
+\@floatcapt=\box68
+)
+(/usr/share/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(/usr/share/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2025/12/02 v3.12 Displaying the values of LaTeX counters (NT,
+VB,NE)
+
+(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
+
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+\XKV@tempb@toks=\toks28
+)
+\XKV@depth=\count335
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/share/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count336
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks29
+\ex@=\dimen174
+)
+\c@padzeroesN=\count337
+\fc@tmpcatcode=\count338
+\@DT@modctr=\count339
+\@ordinalctr=\count340
+\@orgargctr=\count341
+\@strctr=\count342
+\@tmpstrctr=\count343
+\@DT@loopN=\count344
+\@DT@X=\count345
+)
+(/usr/share/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count346
+\@month=\count347
+\@year=\count348
+\c@HOUR=\count349
+\c@HOURXII=\count350
+\c@MINUTE=\count351
+\c@TOHOUR=\count352
+\c@TOMINUTE=\count353
+\c@SECOND=\count354
+\currenthour=\count355
+\currentminute=\count356
+\currentsecond=\count357
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count358
+\dayofyear=\count359
+\dayofweek=\count360
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks30
+\dt@b=\toks31
+)
+(/usr/share/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2025/03/13 v1.3e reserve vertical space
+)
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-footmisc.ltx
+Package: latex-lab-footmisc 2025/02/20 v6.0e a miscellany of footnote facilitie
+s -- latex-lab version
+\FN@temptoken=\toks32
+Package footmisc Info: Declaring symbol style bringhurst on input line 508.
+Package footmisc Info: Declaring symbol style chicago on input line 516.
+Package footmisc Info: Declaring symbol style wiley on input line 525.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 536.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 556.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 577
+.
+)
+(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip65
+\enit@outerparindent=\dimen175
+\enit@toks=\toks33
+\enit@inbox=\box69
+\enit@count@id=\count361
+\enitdp@description=\count362
+)
+(/usr/share/texmf-dist/tex/latex/shipunov/boldline.sty
+Package: boldline 2008/02/04 v0.2 Adjust line width in tables
+)
+(/usr/share/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen176
+\c@nlinenum=\count363
+\TeXr@lab=\toks34
+)
+(/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen177
+\lightrulewidth=\dimen178
+\cmidrulewidth=\dimen179
+\belowrulesep=\dimen180
+\belowbottomsep=\dimen181
+\aboverulesep=\dimen182
+\abovetopsep=\dimen183
+\cmidrulesep=\dimen184
+\cmidrulekern=\dimen185
+\defaultaddspace=\dimen186
+\@cmidla=\count364
+\@cmidlb=\count365
+\@aboverulesep=\dimen187
+\@belowrulesep=\dimen188
+\@thisruleclass=\count366
+\@lastruleclass=\count367
+\@thisrulewidth=\dimen189
+)
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texmf-dist/tex/latex/gensymb/gensymb.sty
+Package: gensymb 2022/10/17 v1.0.2 (KJH)
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip66
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen190
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count368
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count369
+\leftroot@=\count370
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count371
+\DOTSCASE@=\count372
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box70
+\strutbox@=\box71
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen191
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count373
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count374
+\dotsspace@=\muskip17
+\c@parentequation=\count375
+\dspbrk@lvl=\count376
+\tag@help=\toks35
+\row@=\count377
+\column@=\count378
+\maxfields@=\count379
+\andhelp@=\toks36
+\eqnshift@=\dimen192
+\alignsep@=\dimen193
+\tagshift@=\dimen194
+\tagwidth@=\dimen195
+\totwidth@=\dimen196
+\lineht@=\dimen197
+\@envbody=\toks37
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks38
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+\@LN@amsmath@ams@eqpen=\count380
+
+(/usr/share/texmf-dist/tex/latex/latex-lab/latex-lab-amsmath.ltx
+File: latex-lab-amsmath.ltx 2025-09-29 v0.1i amsmath adaptions
+LaTeX Info: Redefining \eqref on input line 57.
+)
+(/usr/share/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip69
+\L@UnitsRaiseTextstyle=\skip70
+\L@UnitsRaiseScriptstyle=\skip71
+)
+(/usr/share/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+)
+Package: xparse 2025-10-09 L3 Experimental document command parser
+))
+(/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+(/usr/share/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (/usr/share/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+(/usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2025/08/14 v2.1h lastpage: 2.09 or 2e? (HMM)
+
+(/usr/share/texmf-dist/tex/latex/lastpage/lastpage2e.sty
+Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (H
+MM)
+
+(/usr/share/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
+Package: lastpagemodern 2025-08-14 v2.1h Refers to last page's name (HMM; JPG)
+\c@lastpagecount=\count381
+) 
+)) (/usr/share/texmf-dist/tex/latex/xargs/xargs.sty
+Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
+\xargs@max=\count382
+\xargs@toksa=\toks39
+\xargs@toksb=\toks40
+)
+(/usr/share/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
+Package: todonotes 2024/01/05
+
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks41
+\pgfutil@tempdima=\dimen198
+\pgfutil@tempdimb=\dimen199
+)
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box72
+)
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks42
+\pgfkeys@temptoks=\toks43
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.te
+x
+\pgfkeys@tmptoks=\toks44
+))
+\pgf@x=\dimen256
+\pgf@y=\dimen257
+\pgf@xa=\dimen258
+\pgf@ya=\dimen259
+\pgf@xb=\dimen260
+\pgf@yb=\dimen261
+\pgf@xc=\dimen262
+\pgf@yc=\dimen263
+\pgf@xd=\dimen264
+\pgf@yd=\dimen265
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count383
+\c@pgf@countb=\count384
+\c@pgf@countc=\count385
+\c@pgf@countd=\count386
+\t@pgf@toka=\toks45
+\t@pgf@tokb=\toks46
+\t@pgf@tokc=\toks47
+\pgf@sys@id@count=\count387
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)
+\pgfsys@objnum=\count388
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count389
+\pgfsyssoftpath@bigbuffer@items=\count390
+)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen266
+\pgfmath@count=\count391
+\pgfmath@box=\box73
+\pgfmath@toks=\toks48
+\pgfmath@stack@operand=\toks49
+\pgfmath@stack@operation=\toks50
+)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code
+.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
+.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count392
+))
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen267
+\pgf@picmaxx=\dimen268
+\pgf@picminy=\dimen269
+\pgf@picmaxy=\dimen270
+\pgf@pathminx=\dimen271
+\pgf@pathmaxx=\dimen272
+\pgf@pathminy=\dimen273
+\pgf@pathmaxy=\dimen274
+\pgf@xx=\dimen275
+\pgf@xy=\dimen276
+\pgf@yx=\dimen277
+\pgf@yy=\dimen278
+\pgf@zx=\dimen279
+\pgf@zy=\dimen280
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen281
+\pgf@path@lasty=\dimen282
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen283
+\pgf@shorten@start@additional=\dimen284
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box74
+\pgf@hbox=\box75
+\pgf@layerbox@main=\box76
+\pgf@picture@serial@count=\count393
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen285
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
+ex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen286
+\pgf@pt@y=\dimen287
+\pgf@pt@temp=\dimen288
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
+x
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen289
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen290
+\pgf@sys@shading@range@num=\count394
+\pgf@shadingcount=\count395
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box77
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box78
+)
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen291
+\pgf@nodesepend=\dimen292
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen293
+\pgffor@skip=\dimen294
+\pgffor@stack=\toks51
+\pgffor@toks=\toks52
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
+x
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count396
+\pgfplotmarksize=\dimen295
+)
+\tikz@lastx=\dimen296
+\tikz@lasty=\dimen297
+\tikz@lastxsaved=\dimen298
+\tikz@lastysaved=\dimen299
+\tikz@lastmovetox=\dimen300
+\tikz@lastmovetoy=\dimen301
+\tikzleveldistance=\dimen302
+\tikzsiblingdistance=\dimen303
+\tikz@figbox=\box79
+\tikz@figbox@bg=\box80
+\tikz@tempbox=\box81
+\tikz@tempbox@bg=\box82
+\tikztreelevel=\count397
+\tikznumberofchildren=\count398
+\tikznumberofcurrentchild=\count399
+\tikz@fig@count=\count400
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count401
+\pgfmatrixcurrentcolumn=\count402
+\pgf@matrix@numberofcolumns=\count403
+)
+\tikz@expandcount=\count404
+
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+topaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+positioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+\c@@todonotes@numberoftodonotes=\count405
+) (/usr/share/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
+
+(/usr/share/texmf-dist/tex/generic/soul/soul-ori.sty
+Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
+\SOUL@word=\toks53
+\SOUL@lasttoken=\toks54
+\SOUL@syllable=\toks55
+\SOUL@cmds=\toks56
+\SOUL@buffer=\toks57
+\SOUL@token=\toks58
+\SOUL@syllgoal=\dimen304
+\SOUL@syllwidth=\dimen305
+\SOUL@charkern=\dimen306
+\SOUL@hyphkern=\dimen307
+\SOUL@dimen=\dimen308
+\SOUL@dimeni=\dimen309
+\SOUL@minus=\count406
+\SOUL@comma=\count407
+\SOUL@apo=\count408
+\SOUL@grave=\count409
+\SOUL@spaceskip=\skip72
+\SOUL@ttwidth=\dimen310
+\SOUL@uldp=\dimen311
+\SOUL@ulht=\dimen312
+)
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(/usr/share/texmf-dist/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2026/01/02 1.4d non floating margin notes for LaTeX 
+\c@mn@abspage=\count410
+)
+(/usr/share/texmf-dist/tex/latex/totalcount/totalcount.sty
+Package: totalcount 2018/01/21 v1.0a Total values of counters (AR)
+\c@totalcount@figure=\count411
+\c@totalcount@table=\count412
+)
+(/usr/share/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+Couldn't patch \@startsection
+) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count413
+)
+(/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen313
+\Hy@linkcounter=\count414
+\Hy@pagecounter=\count415
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count416
+
+(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count417
+
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen314
+
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count418
+\Field@Width=\dimen315
+\Fld@charsize=\dimen316
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count419
+\c@Item=\count420
+)
+Package hyperref Info: Driver (custom): hgeneric-testphase.
+
+(/usr/share/texmf-dist/tex/latex/pdfmanagement-testphase/hgeneric-testphase.def
+File: hgeneric-testphase.def 2026-01-23 v0.96y generic Hyperref driver for the 
+LaTeX PDF management bundle
+
+(/usr/share/texmf-dist/tex/latex/pdfmanagement-testphase/hyperref-colorschemes.
+def)
+LaTeX Info: Redefining \href on input line 262.
+LaTeX Info: Redefining \url on input line 348.
+\l__hyp_tmpa_box=\box83
+\l__hyp_tmpa_int=\count421
+\l__hyp_dest_box=\box84
+\g__hyp_linknestlevel_int=\count422
+\HyAnn@Count=\count423
+\Fld@listcount=\count424
+\Hy@SectionHShift=\skip73
+)
+
+Package hyperref Warning: unknown key pdflanguage of module 'hyp' set to
+(hyperref)                'en-US'.
+
+(/usr/share/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: always capitalise cross-reference names on input line 78
+25.
+Package cleveref Info: always capitalise cross-reference names on input line 78
+52.
+)
+==> First Aid for cleveref.sty applied!
+
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.code.tex
+File: tikzlibraryshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geomet
+ric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.c
+ode.tex
+File: pgflibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbol
+s.code.tex
+File: pgflibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows
+.code.tex
+File: pgflibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.callouts.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callou
+ts.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multip
+art.code.tex
+File: pgflibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodepartlowerbox=\box85
+\pgfnodeparttwobox=\box86
+\pgfnodepartthreebox=\box87
+\pgfnodepartfourbox=\box88
+\pgfnodeparttwentybox=\box89
+\pgfnodepartnineteenbox=\box90
+\pgfnodeparteighteenbox=\box91
+\pgfnodepartseventeenbox=\box92
+\pgfnodepartsixteenbox=\box93
+\pgfnodepartfifteenbox=\box94
+\pgfnodepartfourteenbox=\box95
+\pgfnodepartthirteenbox=\box96
+\pgfnodeparttwelvebox=\box97
+\pgfnodepartelevenbox=\box98
+\pgfnodeparttenbox=\box99
+\pgfnodepartninebox=\box100
+\pgfnodeparteightbox=\box101
+\pgfnodepartsevenbox=\box102
+\pgfnodepartsixbox=\box103
+\pgfnodepartfivebox=\box104
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+arrows.code.tex
+File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\arrowsize=\dimen317
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+automata.code.tex
+File: tikzlibraryautomata.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+trees.code.tex
+File: tikzlibrarytrees.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/usr/share/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(/usr/share/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip74
+\bibsep=\skip75
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count425
+)
+(/usr/share/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip76
+\LTright=\skip77
+\LTpre=\skip78
+\LTpost=\skip79
+\LTchunksize=\count426
+\LTcapwidth=\dimen318
+\LT@head=\box105
+\LT@firsthead=\box106
+\LT@foot=\box107
+\LT@lastfoot=\box108
+\LT@gbox=\box109
+\LT@cols=\count427
+\LT@rows=\count428
+\c@LT@tables=\count429
+\c@LT@chunks=\count430
+\LT@p@ftn=\toks59
+)
+(/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen319
+\TX@old@table=\dimen320
+\TX@old@col=\dimen321
+\TX@target=\dimen322
+\TX@delta=\dimen323
+\TX@cols=\count431
+\TX@ftn=\toks60
+)
+(/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip80
+\multirow@cntb=\count432
+\multirow@dima=\skip81
+\bigstrutjot=\dimen324
+)
+(/usr/share/texmf-dist/tex/latex/tabto-ltx/tabto.sty
+Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
+\CurrentLineWidth=\dimen325
+\TabPrevPos=\dimen326
+)
+(/usr/share/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
+
+(/usr/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
+\ESO@tempdima=\dimen327
+\ESO@tempdimb=\dimen328
+)
+\AM@pagewidth=\dimen329
+\AM@pageheight=\dimen330
+\AM@fboxrule=\dimen331
+
+(/usr/share/texmf-dist/tex/latex/pdfpages/ppxetex.def
+File: ppxetex.def 2025/07/23 v0.6g Pdfpages driver for XeTeX (AM)
+)
+\pdfpages@includegraphics@status=\count433
+\AM@pagebox=\box110
+\AM@global@opts=\toks61
+\AM@pagecnt=\count434
+\AM@toc@title=\toks62
+\AM@lof@heading=\toks63
+\c@AM@survey=\count435
+\AM@templatesizebox=\box111
+)
+(/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen332
+\WF@size=\dimen333
+\c@WF@wrappedlines=\count436
+\WF@box=\box112
+\WF@everypar=\toks64
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen334
+\captionmargin=\dimen335
+\caption@leftmargin=\dimen336
+\caption@rightmargin=\dimen337
+\caption@width=\dimen338
+\caption@indent=\dimen339
+\caption@parindent=\dimen340
+\caption@hangindent=\dimen341
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count437
+\c@continuedfloat=\count438
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: wrapfig package is loaded.
+)
+(/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count439
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count440
+)
+(/usr/share/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count441
+\c@@ppsavesec=\count442
+\c@@ppsaveapp=\count443
+)
+(/usr/share/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2025/11/09 v4.9 (NLCT)
+
+(/usr/share/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2025/04/03 v2.09 (NLCT)
+\@glsmfirst=\toks65
+\@glsmrest=\toks66
+)
+(/usr/share/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/share/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2025/12/04 v3.4.3 (NLCT)
+
+(/usr/share/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2025/03/11 v1.6.6 (NLCT) Track Languages
+
+(/usr/share/texmf-dist/tex/generic/tracklang/tracklang.tex))
+\l__datatool_tmpa_int=\count444
+\l__datatool_tmpb_int=\count445
+\l__datatool_tmpc_int=\count446
+\l__datatool_tmpd_int=\count447
+\l__datatool_count_int=\count448
+\l__datatool_tmp_datatype_int=\count449
+\l__datatool_tmpa_dim=\dimen342
+\l__datatool_tmpb_dim=\dimen343
+
+(/usr/share/texmf-dist/tex/latex/datatool/datatool-l3fp.def
+File: datatool-l3fp.def 2025/12/04 v3.4.3 (NLCT)
+)
+\@dtl@toks=\toks67
+\@dtl@tmpcount=\count450
+\dtl@tmplength=\skip82
+\l__datatool_measure_box=\box113
+\dtl@sortresult=\count451
+
+(/usr/share/texmf-dist/tex/latex/datatool/datatool-utf8.ldf
+File: datatool-utf8.ldf 2025/12/04 v3.4.3 (NLCT)
+)
+\@dtl@datatype=\count452
+\c_datatool_unknown_int=\count453
+\l__datatool_year_int=\count454
+\l__datatool_month_int=\count455
+\l__datatool_day_int=\count456
+\l__datatool_hour_int=\count457
+\l__datatool_minute_int=\count458
+\l__datatool_second_int=\count459
+\l__datatool_tzhour_int=\count460
+\l__datatool_tzminute_int=\count461
+\l__datatool_julian_int=\count462
+\l__datatool_local_julian_int=\count463
+\l__datatool_prefix_int=\count464
+\l__datatool_suffix_int=\count465
+\@dtl@foreach@level=\count466
+\dtl@codeA=\count467
+\dtl@codeB=\count468
+)
+\gls@level=\count469
+\@gls@tmpb=\toks68
+\gls@tmplen=\skip83
+\l__glossaries_tmpa_dim=\dimen344
+\l__glossaries_tmpb_dim=\dimen345
+\glskeylisttok=\toks69
+\glslabeltok=\toks70
+\glsshorttok=\toks71
+\glslongtok=\toks72
+
+(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
+Package: glossary-hypernav 2025/11/09 v4.9 (NLCT)
+)
+(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2025/11/09 v4.9 (NLCT)
+\glslistdottedwidth=\skip84
+)
+(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2025/11/09 v4.9 (NLCT)
+\glsdescwidth=\skip85
+\glspagelistwidth=\skip86
+)
+(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2025/11/09 v4.9 (NLCT)
+
+(/usr/share/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2025/06/26 v4.2d the supertabular environment
+\c@tracingst=\count470
+\ST@wd=\dimen346
+\ST@rightskip=\skip87
+\ST@leftskip=\skip88
+\ST@parfillskip=\skip89
+\ST@pageleft=\dimen347
+\ST@headht=\dimen348
+\ST@tailht=\dimen349
+\ST@pagesofar=\dimen350
+\ST@pboxht=\dimen351
+\ST@rowht=\dimen352
+\ST@prevht=\dimen353
+\ST@toadd=\dimen354
+\ST@dimen=\dimen355
+\ST@pbox=\box114
+))
+(/usr/share/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2025/11/09 v4.9 (NLCT)
+\l__glossaries_tree_max_known_level_int=\count471
+\l__glossaries_tree_offset_dim=\dimen356
+\l__glossaries_tree_namewidth_dim=\dimen357
+\l__glossaries_tree_symbolwidth_dim=\dimen358
+\l__glossaries_tree_prenamesym_width_dim=\dimen359
+\l__glossaries_tree_presubnamesym_width_dim=\dimen360
+\l__glossaries_tree_namewidth_padding_dim=\dimen361
+\l__glossaries_tree_symbolwidth_padding_dim=\dimen362
+\l__glossaries_tree_namesymbolwidth_dim=\dimen363
+\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen364
+\l__glossaries_tree_level_int=\count472
+\glstreeindent=\skip90
+))
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip91
+\f@nch@offset@elh=\skip92
+\f@nch@offset@erh=\skip93
+\f@nch@offset@olh=\skip94
+\f@nch@offset@orh=\skip95
+\f@nch@offset@elf=\skip96
+\f@nch@offset@erf=\skip97
+\f@nch@offset@olf=\skip98
+\f@nch@offset@orf=\skip99
+\f@nch@height=\skip100
+\f@nch@footalignment=\skip101
+\f@nch@widthL=\skip102
+\f@nch@widthC=\skip103
+\f@nch@widthR=\skip104
+\@temptokenb=\toks73
+)
+
+! LaTeX Error: File `$ACRONYM/acronyms.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(/usr/share/texmf-dist/tex/latex/tools/.tex File ignored)
+(/usr/share/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+
+(/usr/share/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
+File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
+\BKM@id=\count473
+))
+LaTeX Font Info:    Trying to load font information for TU+ptm on input line 31
+2.
+LaTeX Font Info:    No file TUptm.fd. on input line 312.
+
+
+LaTeX Font Warning: Font shape `TU/ptm/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 312.
+
+(./1-nuclear-engineering-basics-project.aux)
+\openout1 = `1-nuclear-engineering-basics-project.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 312.
+LaTeX Font Info:    ... okay on input line 312.
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf:StructTreeRoot' -->
+(tagpdf)             'pdf2:Document'
+
+
+Package tagpdf Info: Parent-Child 'StructTreeRoot' --> 'Document'.
+(tagpdf)             Relation is 3 (='1') on line 312
+
+Info: mathml file 1-nuclear-engineering-basics-project-mathml does not exist
+Info: mathml file 1-nuclear-engineering-basics-project-luamml-mathml does not e
+xist
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=2.84526pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2016/01/12
+)
+\symgns@font=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/ptm/m/n --> TS1/ptm/b/n on input line 312.
+Package gensymb Info: Math companion symbols declared on input line 312.
+LaTeX Info: Redefining \degree on input line 312.
+LaTeX Info: Redefining \celsius on input line 312.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 312.
+LaTeX Info: Redefining \ohm on input line 312.
+Package gensymb Info: Using \textohm for \ohm on input line 312.
+Package gensymb Info: Using \textmu for \micro on input line 312.
+
+
+Package todonotes Warning: The length marginparwidth is less than 2cm and will 
+most likely cause issues with the appearance of inserted todonotes. The issue c
+an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+loading the todonotes package. on input line 312.
+
+Package hyperref Info: Link coloring OFF on input line 312.
+(/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2025-06-23 v0.14 Display of landscape pages in PDF
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: supertabular package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+Package tagpdf Info: closing structure 3 tagged /figures
+
+
+Package tagpdf Info: closing structure 4 tagged /tables
+
+
+! Illegal parameter number in definition of \@title.
+<to be read again> 
+                   1
+l.319     }
+           
+? 
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Document' -->
+(tagpdf)             'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Document' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 329
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'pdf2:Title'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'Title'.
+(tagpdf)             Relation is 7 (='‡') on line 329
+
+
+Package tagpdf Info: Parent-Child 'Document' --> 'Title'.
+(tagpdf)             Relation is 1 (='0..n') on line 329
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Title' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Title' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 329
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 329
+
+
+Package tagpdf Info: closing structure 7 tagged /text
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Title' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Title' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 329
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 329
+
+! You can't use `macro parameter character #' in horizontal mode.
+\@title ...uclear Criticality Safety\\ Homework ##
+                                                  1\\ 
+l.329 \maketitle
+                
+? 
+
+Package tagpdf Info: closing structure 8 tagged /text
+
+
+Package tagpdf Info: closing structure 6 tagged /Title
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 329
+
+
+Package tagpdf Info: Parent-Child 'Document' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 329
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 329
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 329
+.
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 329
+.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
+29.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 329
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 329
+
+
+Package tagpdf Info: closing structure 10 tagged /Formula
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 329
+
+
+Package tagpdf Info: closing structure 9 tagged /text
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 329
+
+
+Package tagpdf Info: Parent-Child 'Document' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 329
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 329
+
+
+Package tagpdf Info: closing structure 11 tagged /text
+
+
+Package tagpdf Info: closing structure 5 tagged /text-unit
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Document' -->
+(tagpdf)             'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Document' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 331
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 332
+
+
+Package tagpdf Info: Parent-Child 'Document' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 332
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 332
+
+
+Package tagpdf Info: closing structure 13 tagged /text
+
+
+Package tagpdf Info: closing structure 12 tagged /text-unit
+
+The sequence \g__tag_mc_main_marks_seq is empty
+> .
+[1
+
+
+]
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Document' --> 'pdf2:Sect'
+
+
+Package tagpdf Info: Parent-Child 'Document' --> 'Sect'.
+(tagpdf)             Relation is 1 (='0..n') on line 339
+
+
+LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
+(Font)              using `TU/ptm/m/n' instead on input line 339.
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:section'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'H1'.
+(tagpdf)             Relation is 1 (='0..n') on line 339
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:section' -->
+(tagpdf)             'latex:section-number'
+
+
+Package tagpdf Info: Parent-Child 'H1' --> 'Span'.
+(tagpdf)             Relation is 1 (='0..n') on line 339
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:section-number' --> 'MC
+(tagpdf)             (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Span' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 339
+
+
+Package tagpdf Info: closing structure 16 tagged /section-number
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:section' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'H1' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 339
+
+
+Package tagpdf Info: closing structure 15 tagged /section
+
+
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
+d on input line 341.
+
+
+! LaTeX Error: \mathbf allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341 ...ibe the Mayak 1958 criticality accident.}
+                                                   \\
+? 
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 341
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 341
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 341
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 341
+
+
+Package tagpdf Info: closing structure 18 tagged /text
+
+
+Package tagpdf Info: closing structure 17 tagged /text-unit
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 343
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 343
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 343
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 343
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 343
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 343
+
+
+Package tagpdf Info: closing structure 21 tagged /Formula
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 343
+
+
+Package tagpdf Info: closing structure 20 tagged /text
+
+
+Package tagpdf Info: closing structure 19 tagged /text-unit
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 347
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' -->
+(tagpdf)             'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'Formula'.
+(tagpdf)             Relation is 7 (='‡') on line 347
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 347
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 347
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'pdf2:Lbl'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'Lbl'.
+(tagpdf)             Relation is 1 (='0..n') on line 347
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Lbl' --> 'MC (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Lbl' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 347
+
+
+Package tagpdf Info: closing structure 24 tagged /Lbl
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 347
+
+
+Package tagpdf Info: closing structure 23 tagged /Formula
+
+
+Package tagpdf Info: closing structure 22 tagged /text-unit
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 349
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 349
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 349
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 349
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 349
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 349
+
+
+Package tagpdf Info: closing structure 27 tagged /Formula
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 349
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 349
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 349
+
+
+Package tagpdf Info: closing structure 28 tagged /Formula
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 349
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 349
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 349
+
+
+Package tagpdf Info: closing structure 29 tagged /Formula
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 349
+
+
+Package tagpdf Info: closing structure 26 tagged /text
+
+
+Package tagpdf Info: closing structure 25 tagged /text-unit
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 351
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 351
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 351
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 351
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf:Reference'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Reference'.
+(tagpdf)             Relation is 1 (='0..n') on line 351
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf:Reference' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Reference' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 351
+
+
+Package tagpdf Info: Reference has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {Reference}
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'pdf:Reference' --> 'pdf2:Link'
+
+
+Package tagpdf Info: Parent-Child 'Reference' --> 'Link'.
+(tagpdf)             Relation is 1 (='0..n') on line 351
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Link' --> 'MC (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Link' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 351
+
+
+Package tagpdf Info: closing structure 33 tagged /Link
+
+
+Package tagpdf Info: Reference has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'pdf:Reference' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Reference' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 351
+
+
+Package tagpdf Info: closing structure 32 tagged /Reference
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 351
+
+
+Package tagpdf Info: closing structure 31 tagged /text
+
+
+Package tagpdf Info: closing structure 30 tagged /text-unit
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:figures' --> 'latex:float'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Aside'.
+(tagpdf)             Relation is 1 (='0..n') on line 353
+
+Floatstructure:34
+
+Package tagpdf Info: Checking Parent-Child 'latex:float' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Aside' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 355
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 355
+
+
+Package tagpdf Info: Parent-Child 'Aside' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 355
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 355
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Warning: Alternative text for graphic is missing.
+(tagpdf)                Using 'HW1/Figures/cylindertoSpherlike.png' instead.
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Figure'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Figure'.
+(tagpdf)             Relation is 1 (='0..n') on line 355
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Figure' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Figure' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 355
+
+File: HW1/Figures/cylindertoSpherlike.png Graphic file (type bmp)
+<HW1/Figures/cylindertoSpherlike.png>
+
+Package tagpdf Info: closing structure 37 tagged /Figure
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 355
+
+
+Package tagpdf Info: closing structure 36 tagged /text
+
+
+Package tagpdf Info: closing structure 35 tagged /text-unit
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:float' --> 'pdf2:Caption'
+
+
+Package tagpdf Info: Parent-Child 'Aside' --> 'Caption'.
+(tagpdf)             Relation is 2 (='0..1') on line 357
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Caption' --> 'pdf2:Lbl'
+
+
+Package tagpdf Info: Parent-Child 'Caption' --> 'Lbl'.
+(tagpdf)             Relation is 1 (='0..n') on line 357
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Lbl' --> 'MC (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Lbl' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 357
+
+
+Package tagpdf Info: closing structure 39 tagged /Lbl
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Caption' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Caption' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 357
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 357
+
+
+Package tagpdf Info: closing structure 40 tagged /text
+
+
+Package tagpdf Info: closing structure 38 tagged /Caption
+
+
+Package tagpdf Info: closing structure 34 tagged /float
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'pdf2:Sect'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Sect'.
+(tagpdf)             Relation is 1 (='0..n') on line 360
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:subsection'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'H2'.
+(tagpdf)             Relation is 1 (='0..n') on line 360
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:subsection' -->
+(tagpdf)             'latex:section-number'
+
+
+Package tagpdf Info: Parent-Child 'H2' --> 'Span'.
+(tagpdf)             Relation is 1 (='0..n') on line 360
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:section-number' --> 'MC
+(tagpdf)             (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Span' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 360
+
+
+Package tagpdf Info: closing structure 43 tagged /section-number
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:subsection' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'H2' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 360
+
+
+Package tagpdf Info: closing structure 42 tagged /subsection
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 361
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 361
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 361
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 361
+
+
+Package tagpdf Info: closing structure 45 tagged /text
+
+
+Package tagpdf Info: closing structure 44 tagged /text-unit
+
+The sequence \g__tag_mc_main_marks_seq contains the items (without outer
+braces):
+>  {b+}
+>  {38}
+>  {45}
+>  {text}.
+
+LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
+(Font)              using `TU/ptm/m/n' instead on input line 364.
+
+[1]
+Package marginnote Info: Using workaround for absolute page number on input lin
+e 364.
+
+Package tagpdf Info: closing structure 41 tagged /Sect
+
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'pdf2:Sect'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Sect'.
+(tagpdf)             Relation is 1 (='0..n') on line 364
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:subsection'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'H2'.
+(tagpdf)             Relation is 1 (='0..n') on line 364
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:subsection' -->
+(tagpdf)             'latex:section-number'
+
+
+Package tagpdf Info: Parent-Child 'H2' --> 'Span'.
+(tagpdf)             Relation is 1 (='0..n') on line 364
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:section-number' --> 'MC
+(tagpdf)             (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Span' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 364
+
+
+Package tagpdf Info: closing structure 48 tagged /section-number
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:subsection' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'H2' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 364
+
+
+Package tagpdf Info: closing structure 47 tagged /subsection
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 365
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 365
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 365
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 365
+
+
+Package tagpdf Info: closing structure 50 tagged /text
+
+
+Package tagpdf Info: closing structure 49 tagged /text-unit
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 369
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' -->
+(tagpdf)             'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'Formula'.
+(tagpdf)             Relation is 7 (='‡') on line 369
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 369
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 369
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'pdf2:Lbl'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'Lbl'.
+(tagpdf)             Relation is 1 (='0..n') on line 369
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Lbl' --> 'MC (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Lbl' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 369
+
+
+Package tagpdf Info: closing structure 53 tagged /Lbl
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 369
+
+
+Package tagpdf Info: closing structure 52 tagged /Formula
+
+
+Package tagpdf Info: closing structure 51 tagged /text-unit
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 372
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' -->
+(tagpdf)             'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'Formula'.
+(tagpdf)             Relation is 7 (='‡') on line 372
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 372
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 372
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'pdf2:Lbl'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'Lbl'.
+(tagpdf)             Relation is 1 (='0..n') on line 372
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Lbl' --> 'MC (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Lbl' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 372
+
+
+Package tagpdf Info: closing structure 56 tagged /Lbl
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 372
+
+
+Package tagpdf Info: closing structure 55 tagged /Formula
+
+
+Package tagpdf Info: closing structure 54 tagged /text-unit
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 374
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: closing structure 59 tagged /Formula
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: closing structure 60 tagged /Formula
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: closing structure 61 tagged /Formula
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: closing structure 62 tagged /Formula
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: closing structure 63 tagged /Formula
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: closing structure 64 tagged /Formula
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: closing structure 65 tagged /Formula
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: closing structure 66 tagged /Formula
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: closing structure 67 tagged /Formula
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf:Reference'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Reference'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf:Reference' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Reference' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: Reference has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {Reference}
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'pdf:Reference' --> 'pdf2:Link'
+
+
+Package tagpdf Info: Parent-Child 'Reference' --> 'Link'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Link' --> 'MC (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Link' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: closing structure 69 tagged /Link
+
+
+Package tagpdf Info: Reference has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'pdf:Reference' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Reference' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: closing structure 68 tagged /Reference
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: closing structure 70 tagged /Formula
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Formula'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Formula'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Formula' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Formula' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: closing structure 71 tagged /Formula
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 374
+
+
+Package tagpdf Info: closing structure 58 tagged /text
+
+
+Package tagpdf Info: closing structure 57 tagged /text-unit
+
+The sequence \g__tag_mc_main_marks_seq contains the items (without outer
+braces):
+>  {b+}
+>  {38}
+>  {45}
+>  {text}.
+[2]
+
+Package tagpdf Info: closing structure 46 tagged /Sect
+
+
+Package tagpdf Info: closing structure 14 tagged /Sect
+
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Document' --> 'pdf2:Sect'
+
+
+Package tagpdf Info: Parent-Child 'Document' --> 'Sect'.
+(tagpdf)             Relation is 1 (='0..n') on line 413
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:section'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'H1'.
+(tagpdf)             Relation is 1 (='0..n') on line 413
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:section' -->
+(tagpdf)             'latex:section-number'
+
+
+Package tagpdf Info: Parent-Child 'H1' --> 'Span'.
+(tagpdf)             Relation is 1 (='0..n') on line 413
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:section-number' --> 'MC
+(tagpdf)             (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Span' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 413
+
+
+Package tagpdf Info: closing structure 74 tagged /section-number
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:section' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'H1' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 413
+
+
+Package tagpdf Info: closing structure 73 tagged /section
+
+
+! LaTeX Error: \mathbf allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.418 ...dify the experiments to make them safer.}
+                                                  
+? 
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 418
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 418
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 418
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 418
+
+
+Package tagpdf Info: closing structure 76 tagged /text
+
+
+Package tagpdf Info: closing structure 75 tagged /text-unit
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 420
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 420
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 420
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 420
+
+
+Package tagpdf Info: closing structure 78 tagged /text
+
+
+Package tagpdf Info: closing structure 77 tagged /text-unit
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'pdf2:Sect'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Sect'.
+(tagpdf)             Relation is 1 (='0..n') on line 422
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:subsection'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'H2'.
+(tagpdf)             Relation is 1 (='0..n') on line 422
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:subsection' -->
+(tagpdf)             'latex:section-number'
+
+
+Package tagpdf Info: Parent-Child 'H2' --> 'Span'.
+(tagpdf)             Relation is 1 (='0..n') on line 422
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:section-number' --> 'MC
+(tagpdf)             (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Span' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 422
+
+
+Package tagpdf Info: closing structure 81 tagged /section-number
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:subsection' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'H2' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 422
+
+
+Package tagpdf Info: closing structure 80 tagged /subsection
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 424
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 424
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 424
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 424
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf:Reference'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Reference'.
+(tagpdf)             Relation is 1 (='0..n') on line 424
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf:Reference' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Reference' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 424
+
+
+Package tagpdf Info: Reference has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {Reference}
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'pdf:Reference' --> 'pdf2:Link'
+
+
+Package tagpdf Info: Parent-Child 'Reference' --> 'Link'.
+(tagpdf)             Relation is 1 (='0..n') on line 424
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Link' --> 'MC (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Link' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 424
+
+
+Package tagpdf Info: closing structure 85 tagged /Link
+
+
+Package tagpdf Info: Reference has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'pdf:Reference' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'Reference' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 424
+
+
+Package tagpdf Info: closing structure 84 tagged /Reference
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 424
+
+
+Package tagpdf Info: closing structure 83 tagged /text
+
+
+Package tagpdf Info: closing structure 82 tagged /text-unit
+
+
+Package tagpdf Info: closing structure 79 tagged /Sect
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'pdf2:Sect'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Sect'.
+(tagpdf)             Relation is 1 (='0..n') on line 428
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:subsection'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'H2'.
+(tagpdf)             Relation is 1 (='0..n') on line 428
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:subsection' -->
+(tagpdf)             'latex:section-number'
+
+
+Package tagpdf Info: Parent-Child 'H2' --> 'Span'.
+(tagpdf)             Relation is 1 (='0..n') on line 428
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:section-number' --> 'MC
+(tagpdf)             (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Span' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 428
+
+
+Package tagpdf Info: closing structure 88 tagged /section-number
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:subsection' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'H2' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 428
+
+
+Package tagpdf Info: closing structure 87 tagged /subsection
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 430
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 430
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 430
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 430
+
+
+Package tagpdf Info: closing structure 90 tagged /text
+
+
+Package tagpdf Info: closing structure 89 tagged /text-unit
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 432
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 432
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 432
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 432
+
+
+Package tagpdf Info: closing structure 92 tagged /text
+
+
+Package tagpdf Info: closing structure 91 tagged /text-unit
+
+The sequence \g__tag_mc_main_marks_seq contains the items (without outer
+braces):
+>  {b+}
+>  {94}
+>  {92}
+>  {text}.
+[3]
+The sequence \g__tag_mc_main_marks_seq contains the items (without outer
+braces):
+>  {b+}
+>  {94}
+>  {92}
+>  {text}.
+ [4] (./1-nuclear-engineering-basics-project.bbl
+
+Package tagpdf Info: closing structure 86 tagged /Sect
+
+
+Package tagpdf Info: closing structure 72 tagged /Sect
+
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Document' --> 'pdf2:Sect'
+
+
+Package tagpdf Info: Parent-Child 'Document' --> 'Sect'.
+(tagpdf)             Relation is 1 (='0..n') on line 1
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:section'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'H1'.
+(tagpdf)             Relation is 1 (='0..n') on line 1
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:section' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'H1' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 1
+
+
+Package tagpdf Info: closing structure 94 tagged /section
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Sect' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 1
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:list'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'L'.
+(tagpdf)             Relation is 7 (='‡') on line 1
+
+
+Package tagpdf Info: Parent-Child 'Sect' --> 'L'.
+(tagpdf)             Relation is 1 (='0..n') on line 1
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:list' --> 'pdf2:LI'
+
+
+Package tagpdf Info: Parent-Child 'L' --> 'LI'.
+(tagpdf)             Relation is 1 (='0..n') on line 15
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:LI' --> 'pdf2:Lbl'
+
+
+Package tagpdf Info: Parent-Child 'LI' --> 'Lbl'.
+(tagpdf)             Relation is 1 (='0..n') on line 15
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Lbl' --> 'MC (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Lbl' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 15
+
+
+Package tagpdf Info: closing structure 98 tagged /Lbl
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:LI' --> 'pdf2:LBody'
+
+
+Package tagpdf Info: Parent-Child 'LI' --> 'LBody'.
+(tagpdf)             Relation is 1 (='0..n') on line 15
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:LBody' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'LBody' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 16
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 16
+
+
+Package tagpdf Info: Parent-Child 'LBody' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 16
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 16
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Link'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Link'.
+(tagpdf)             Relation is 1 (='0..n') on line 22
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Link' --> 'MC (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Link' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 22
+
+LaTeX Font Info:    Trying to load font information for TU+pcr on input line 22
+.
+LaTeX Font Info:    No file TUpcr.fd. on input line 22.
+
+LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 22.
+
+
+Package tagpdf Info: closing structure 102 tagged /Link
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 22
+
+
+Package tagpdf Info: closing structure 101 tagged /text
+
+
+Package tagpdf Info: closing structure 100 tagged /text-unit
+
+
+Package tagpdf Info: closing structure 99 tagged /LBody
+
+
+Package tagpdf Info: closing structure 97 tagged /LI
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:list' --> 'pdf2:LI'
+
+
+Package tagpdf Info: Parent-Child 'L' --> 'LI'.
+(tagpdf)             Relation is 1 (='0..n') on line 24
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:LI' --> 'pdf2:Lbl'
+
+
+Package tagpdf Info: Parent-Child 'LI' --> 'Lbl'.
+(tagpdf)             Relation is 1 (='0..n') on line 24
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Lbl' --> 'MC (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Lbl' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 24
+
+
+Package tagpdf Info: closing structure 104 tagged /Lbl
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:LI' --> 'pdf2:LBody'
+
+
+Package tagpdf Info: Parent-Child 'LI' --> 'LBody'.
+(tagpdf)             Relation is 1 (='0..n') on line 24
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:LBody' --> 'latex:text-unit'
+
+
+Package tagpdf Info: Parent-Child 'LBody' --> 'Part'.
+(tagpdf)             Relation is 1 (='0..n') on line 25
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text-unit' --> 'latex:text'
+
+
+Package tagpdf Info: Parent-Child 'Part' --> 'P'.
+(tagpdf)             Relation is 7 (='‡') on line 25
+
+
+Package tagpdf Info: Parent-Child 'LBody' --> 'P'.
+(tagpdf)             Relation is 1 (='0..n') on line 25
+
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 25
+
+
+Package tagpdf Info: text has been pushed to the mc stack
+
+The sequence \g__tag_mc_stack_seq contains the items (without outer braces):
+>  {text}.
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'pdf2:Link'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'Link'.
+(tagpdf)             Relation is 1 (='0..n') on line 32
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Link' --> 'MC (real content)'
+
+
+Package tagpdf Info: Parent-Child 'Link' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 32
+
+
+Package tagpdf Info: closing structure 108 tagged /Link
+
+
+Package tagpdf Info: text has been removed from the mc stack
+
+The sequence \g__tag_mc_stack_seq is empty
+> .
+
+Package tagpdf Info: Checking Parent-Child 'latex:text' --> 'MC (real
+(tagpdf)             content)'
+
+
+Package tagpdf Info: Parent-Child 'P' --> 'MC'.
+(tagpdf)             Relation is 1 (='0..n') on line 32
+
+
+Package tagpdf Info: closing structure 107 tagged /text
+
+
+Package tagpdf Info: closing structure 106 tagged /text-unit
+
+
+Package tagpdf Info: closing structure 105 tagged /LBody
+
+
+Package tagpdf Info: closing structure 103 tagged /LI
+
+
+Package tagpdf Info: closing structure 96 tagged /list
+
+)
+
+Package tagpdf Info: closing structure 95 tagged /text-unit
+
+
+
+! LaTeX Error: \begin{document} ended by \end{appendices}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.488 \end{appendices}
+                      
+? 
+! Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.488 \end{appendices}
+                      
+? 
+
+Package caption Warning: Unused \captionsetup[table] on input line 151.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[wrapfigure] on input line 153.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[wraptable] on input line 154.
+See the caption package documentation for explanation.
+
+
+Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
+ found. (Remove \makenoidxglossaries if you don't want any glossaries.)
+This document will not have a glossary.
+
+The sequence \g__tag_mc_main_marks_seq contains the items (without outer
+braces):
+>  {e+}
+>  {94}
+>  {92}.
+
+Package tagpdf Info: closing structure 93 tagged /Sect
+
+
+Package tagpdf Info: Checking Parent-Child 'pdf2:Document' --> 'latex:figures'
+
+
+Package tagpdf Info: Parent-Child 'Document' --> 'Sect'.
+(tagpdf)             Relation is 1 (='0..n') on line 491
+
+
+Package tagpdf Info: closing structure 2 tagged /Document
+
+
+Package tagpdf Info: Finalizing the tagging structure:
+(tagpdf)             Writing out ~108 structure objects
+(tagpdf)             with ~110 'MC' leaf nodes.
+(tagpdf)             Be patient if there are lots of objects!
+
+Package tagpdf Info: writing ParentTree
+Package tagpdf Info: writing IDTree
+Package tagpdf Info: writing RoleMap
+Package tagpdf Info: writing ClassMap
+Package tagpdf Info: writing NameSpaces
+Package tagpdf Info: writing StructElems
+Package tagpdf Info: writing Root
+[5] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(./1-nuclear-engineering-basics-project.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+======================================
+ Status report of the tagging support
+======================================
+ Details at https://latex3.github.io/tagging-project/tagging-status
+ Report erroneous entries at https://github.com/latex3/tagging-project
+
+ A. CLASS
+ ********
+
+ article.cls is compatible
+
+ B. PACKAGES, LIBRARIES, etc
+ ***********
+
+ 1. Unsupported
+ --------------------------
+ NONE
+
+ 2. Currently incompatible
+ --------------------------
+ lineno.sty
+ ulem.sty
+ footnotehyper.sty
+ float.sty
+ needspace.sty
+ boldline.sty
+ nicefrac.sty
+ todonotes.sty
+ soul.sty
+ marginnote.sty
+ multirow.sty
+ tabto.sty
+ pdfpages.sty
+ wrapfig.sty
+ caption.sty
+ ltcaption.sty
+ subcaption.sty
+ supertabular.sty
+
+ 3. Partially compatible
+ --------------------------
+ colortbl.sty
+ enumitem.sty
+ amssymb.sty
+ amsfonts.sty
+ gensymb.sty
+ amsmath.sty
+ amsbsy.sty
+ sectsty.sty
+ tikz.sty
+ pgfrcs.sty
+ hyperref.sty
+ cleveref.sty
+ eso-pic.sty
+ appendix.sty
+
+ 4. Compatible
+ --------------------------
+ array.sty
+ geometry.sty
+ keyval.sty
+ ifvtex.sty
+ iftex.sty
+ etoolbox.sty
+ kvoptions.sty
+ ltxcmds.sty
+ kvsetkeys.sty
+ mmap.sty
+ setspace.sty
+ xcolor.sty
+ graphicx.sty
+ graphics.sty
+ trig.sty
+ tablefootnote.sty
+ letltxmacro.sty
+ xifthen.sty
+ calc.sty
+ ifthen.sty
+ ifmtarg.sty
+ fmtcount.sty
+ xkeyval.sty
+ amsgen.sty
+ booktabs.sty
+ amstext.sty
+ amsopn.sty
+ xparse.sty
+ expl3.sty
+ lscape.sty
+ chngcntr.sty
+ textcomp.sty
+ lastpage.sty
+ xargs.sty
+ pgffor.sty
+ pgfkeys.sty
+ pgfmath.sty
+ infwarerr.sty
+ totalcount.sty
+ parskip.sty
+ kvdefinekeys.sty
+ pdfescape.sty
+ pdftexcmds.sty
+ hycolor.sty
+ nameref.sty
+ refcount.sty
+ gettitlestring.sty
+ stringenc.sty
+ intcalc.sty
+ url.sty
+ bitset.sty
+ bigintcalc.sty
+ times.sty
+ natbib.sty
+ longtable.sty
+ tabularx.sty
+ mfirstuc.sty
+ xfor.sty
+ tracklang.sty
+ fancyhdr.sty
+ bookmark.sty
+ pdflscape.sty
+
+ 5. Unknown
+ --------------------------
+ datetime.sty
+ makecell.sty
+ physics.sty
+ pgf.sty
+ pgfcore.sty
+ glossaries.sty
+
+  6.Unclassified files with extension .sty
+ --------------------------
+ fcprefix.sty
+ fcnumparser.sty
+ datetime-defaults.sty
+ lastpage2e.sty
+ lastpagemodern.sty
+ soul-ori.sty
+ etexcmds.sty
+ datatool-base.sty
+ glossary-hypernav.sty
+ glossary-list.sty
+ glossary-long.sty
+ glossary-super.sty
+ glossary-tree.sty
+
+====================================
+ End of status report
+====================================
+ ) 
+Here is how much of TeX's memory you used:
+ 47885 strings out of 470191
+ 1043014 string characters out of 5479698
+ 1584816 words of memory out of 5000000
+ 75683 multiletter control sequences out of 15000+600000
+ 718404 words of font info for 79 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 99i,12n,117p,2524b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on 1-nuclear-engineering-basics-project.pdf (6 pages).

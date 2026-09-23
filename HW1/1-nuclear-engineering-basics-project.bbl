@@ -1,0 +1,34 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\bibAnnoteFile}[1]{%
+  \IfFileExists{#1}{\begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ \input{#1}\end{quotation}}{}}
+\providecommand{\bibAnnote}[2]{%
+  \begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ #2\end{quotation}}
+
+\bibitem{LA-13638}
+McLaughlin, Thomas~P., Monahan, Shean~P., Pruvost, Norman~L., Frolov,
+  Vladimir~V., Ryazanov, Boris~G., Sviridov, Victor~I., 2000 May.
+\newblock {A Review of Criticality Accidents, 2000 Revision}.
+\newblock Technical Report LA-13638, {Los Alamos National Laboratory}, Los
+  Alamos, NM.
+\bibAnnoteFile{LA-13638}
+\newline\urlprefix\url{https://www.nrc.gov/docs/ML0037/ML003731912.pdf}
+
+\bibitem{Vega2015}
+Vega, Richard~M., Lane, Taylor~K., Miller, John~A., Schwers, Norman~F., 2015
+  September.
+\newblock {Reactivity Effects at the Mayak Production Association, January 2,
+  1958 Criticality Accident Using Serpent 2 and OpenFOAM}.
+\newblock In: {Proceedings of the International Conference on Nuclear
+  Criticality Safety (ICNC 2015)}. {American Nuclear Society}, Charlotte, NC.
+\bibAnnoteFile{Vega2015}
+\newline\urlprefix\url{https://www.osti.gov/biblio/1255788}
+
+\end{thebibliography}
