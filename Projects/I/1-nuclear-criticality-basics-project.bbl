@@ -1,4 +1,4 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -11,5 +11,12 @@
 \providecommand{\bibAnnote}[2]{%
   \begin{quotation}\noindent\textsc{Key:} #1\\
   \textsc{Annotation:}\ #2\end{quotation}}
+
+\bibitem{Duderstadt}
+Duderstadt, James~J., Hamilton, Louis~J., 1976.
+\newblock {Nuclear Reactor Analysis}.
+\newblock John Wiley \& Sons, New York.
+\newblock ISBN 0471223638.
+\bibAnnoteFile{Duderstadt}
 
 \end{thebibliography}

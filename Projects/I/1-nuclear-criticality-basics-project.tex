@@ -114,7 +114,7 @@
     linkcolor=black,
     citecolor=black,
     urlcolor=blue,
-    pdftitle={Homework},
+    pdftitle={Project},
     pdfauthor={R. A. Borrelli},
     pdfkeywords={homework},
     pdflanguage={en-US},
@@ -311,7 +311,7 @@
 \fancyhf{} %move page number to bottom right
 %\renewcommand{\headrulewidth}{0pt} %turn off line in header
 \lhead{\scriptsize NE 5350 — Nuclear Criticality Safety}
-\chead{\scriptsize \textit{Homework 1}}
+\chead{\scriptsize \textit{Project 1}}
 \rhead{\scriptsize \today}
 \rfoot{\thepage}
 %%%%%
@@ -369,94 +369,70 @@ The following figures depicts the installed OpenMC version and ENDF/B-VII.1 libr
 \end{figure}
 
 \section{Compute the Critical Enrichment of Uranium}
-Create an infinite-homogeneous composition of pure uranium (metal). Then, use the
+\textbf{Create an infinite-homogeneous composition of pure uranium (metal). Then, use the
 enrichment argument to specify the uranium enrichment. For example,
-uranium.add$\_$element("U", 1.0, enrichment=4.0)
-would specify a material with 4 $\%$ enriched (by mass) uranium.
+uranium.add-element("U", 1.0, enrichment=4.0)
+would specify a material with 4 $\%$ enriched (by mass) uranium.}
 
-As described in the slab.py example, an infinite-homogeneous composistion of pure uranium metal can be represented in an infinite slab (in the y-direction) with a width of 6.5 cm. Below is the written code to express what is written in the prompt. Be aware that I have setup my location for the cross_sections.xml file differently than what is provided in the example and lecture.
-
-import openmc
-# Point OpenMC to the cross_sections.xml file with all cross section data.
-openmc.config["cross_sections"] = "/opt/nuclear_data/endfb-vii.1-hdf5/cross_sections.xml"
-################################################################################
-# Describe the materials of the problem.
-################################################################################
-
-uranium = openmc.Material()
-uranium.add_element("U", 1.0, enrichment=4.0)
-materials = openmc.Materials([uranium])
-materials.export_to_xml()
-################################################################################
-# Describe the geometry of the problem.
-################################################################################
-
-width = 6.5
-
-# Begin by defining a surface at the left and right.
-left = openmc.XPlane(0.0)
-left.boundary_type = "vacuum"
-right = openmc.XPlane(width)
-right.boundary_type = "vacuum"
-
-# Combine surfaces together into a cell
-cell = openmc.Cell()
-cell.region = +left & -right
-cell.fill = uranium
-
-geom = openmc.Geometry([cell])
-geom.export_to_xml()
-
-################################################################################
-# Configure the settings.
-################################################################################
-
-settings = openmc.Settings()
-settings.particles = 100_000
-settings.batches = 100 + 50
-settings.inactive = 50
-# Create an initial uniform spatial source distribution over the domain.
-bounds = [0.0, 0.0, 0.0, width, 0.0, 0.0]
-uniform_dist = openmc.stats.Box(bounds[:3], bounds[3:])
-settings.source = openmc.IndependentSource(space=uniform_dist)
-settings.run_mode = "eigenvalue"
-settings.export_to_xml()
-# Run in parallel with four threads.
-openmc.run(threads=4)
-
-
-
-
-
+As described in the slab.py example, an infinite-homogeneous composition of pure uranium metal can be represented in an infinite slab (in the y-direction) with a width of 6.5 cm. Below is the written code to express what is written in the prompt. Be aware that I have setup my location for the cross-sections.xml file differently than what is provided in the example and lecture. \href{https://github.com/HeartUnderSnow/NE5350-Nuclear-Criticality-Safety/blob/main/Projects/I/homogeneousSlabAt4percentEnrichment.py}{See attached code here}.
+\\
 \begin{itemize}
 
-\item Perform a criticality search to find the enrichment of uranium metal that would be critical
-in an infinite-homogeneous mixture.
+\item \textbf{Perform a criticality search to find the enrichment of uranium metal that would be critical
+in an infinite-homogeneous mixture.}
 \\
 
-\item Without performing any additional calculations, using only your answer to 2(a), what
+In an infinite slab with a width of 6.5 cm, the critical enrichment in the homogeneous mixture is approximately 5.9 $\%$. \href{https://github.com/HeartUnderSnow/NE5350-Nuclear-Criticality-Safety/blob/main/Projects/I/criticalSlab.py}{See attached code here for Question 2a}.
+\\
+
+
+\item \textbf{Without performing any additional calculations, using only your answer to 2(a), what
 would be the critical radius of a sphere of 3.2 $\%$ enriched uranium? Explain your
-reasoning
+reasoning.}
+\\
+
+The critical radius for a sphere enriched at 3.2 $\%$ is unattainable. The infinite-homogeneous mixture, without any reflector material is critical at 5.9 $\%$ with a width of 6.5 cm. How can it be, for a finite sphere with less enrichment, to be critical in the absence of any reflector material? Even the demon cores, composed of plutonium, needed tungsten carbide or beryllium, to become prompt supercritical.\\
+Consider the six factor formula\cite{Duderstadt},
+
+\begin{equation}
+k_{eff} = \eta f p\epsilon P_{FNL}P_{TNL} = k_{\infty}P_{FNL}P_{TNL}
+\begin{equation}
 \end{itemize}
 
+where $\eta$ is the thermal fission factor, f is the thermal utilization factor, p is the resonance escape factor, $\epsilon$ is the fast fission factor, P$_{FNL}$ is the fast non-leakage probability, and P$_{TNL}$ is the thermal non-leakage probability. Since the product of the non-leak probabilities, P$_{NL}$ is less than or equal to one, being a probability, for any finite geometry, k$_{eff}$ can never exceed k$_{\infty}$. Therefore, k$_{eff}$ is only critical if k$_{\infty}$ is more than one, which can be viable provided enough enrichment of U-235.\\
 \subsection{Calculate the critical dimensions of High-Assay Low-Enriched Uranium (HALEU)}
-Low-Enriched Uranium (LEU) is defined by the International Atomic Energy Agency (IAEA)
-as < 20 $\%$ enriched uranium. Historically in the United States, enrichment has been limited
-to < 5 $\%$ as an administrative control. Recent interest in advanced reactors, especially
+\textbf{Low-Enriched Uranium (LEU) is defined by the International Atomic Energy Agency (IAEA)
+as less than 20 $\%$ enriched uranium. Historically in the United States, enrichment has been limited
+to less than 5 $\%$ as an administrative control. Recent interest in advanced reactors, especially
 fast-spectrum reactors like Sodium-cooled Fast Reactors (SFRs), has turned to HALEU to
 achieve the uranium density requirements for these reactors. Generally speaking, HALEU is
 defined as enrichments between 5 $\%$ and 20 $\%$.
-
-You will compute the critical dimensions of HALEU for certain geometries.
+\\
+You will compute the critical dimensions of HALEU for certain geometries.}
 
 \begin{itemize}
-\item Compute the critical radius for a sphere of 20$\%$ enriched uranium.
-\item Compute the critical radius for a one-dimensional cylinder (infinite in the z-direction) of 20 $\%$ enriched uranium.
-\item Compute the critical width of a one-dimensional slab of 20$\%$ enriched uranium.
-\item Consider you answer to Problem 2 (above). How would a facility that is currently
+\item \textbf{Compute the critical radius for a sphere of 20 $\%$ enriched uranium.}
+\\
+
+The critical radius for a sphere of 20 $\%$ enriched uranium, in a vacuum, is approximately 1.025 cm. \href{https://github.com/HeartUnderSnow/NE5350-Nuclear-Criticality-Safety/blob/main/Projects/I/HALEUsphere.py}{See attached code here. Be mindful of the cross-section.xml routing if you want to run it yourself.}
+\\
+
+\item \textbf{Compute the critical radius for a one-dimensional cylinder (infinite in the z-direction) of 20 $\%$ enriched uranium.}
+\\
+
+The critical radius for a one-dimensional cylinder, infinite in the z-direction, enriched to 20 $\%$ U-235 is approximately 0.76 cm, more so 0.759 cm. \href{https://github.com/HeartUnderSnow/NE5350-Nuclear-Criticality-Safety/blob/main/Projects/I/HALEUcylinder.py}{See attached code here.}
+
+\item \textbf{Compute the critical width of a one-dimensional slab of 20 $\%$ enriched uranium.}
+\\
+The critical width for this 20 $\%$ enriched slab is approximately 0.925 cm. \href{https://github.com/HeartUnderSnow/NE5350-Nuclear-Criticality-Safety/blob/main/Projects/I/HALEUslab.py}{See attached code here.}
+
+\item \textbf{Consider you answer to Problem 2 (above). How would a facility that is currently
 designed to handle 5 $\%$ enriched uranium need to be modified to accept 20 $\%$ enriched
 uranium? Recall that criticality safety is always a balancing act. What are the competing
-forces in this proposed design change
+forces in this proposed design change?}
+\\
+
+In order for a facility, adapted for use for 5 $\%$ enriched uranium, to adapt to handle higher enriched uranium -- up to 20$\%$ -- changes to the relevant procedures will need to be made in order to maintain criticality safety. Such changes could include the dimensions for favorable geometry for storing the higher-enriched material and ensuring proper separation between samples. The two competing forces in the design change for the facility is to balance Criticality Safety and Profitability. Having zero uranium or plutonium on site would be too extreme; what would be the purpose of the facility? Having no regard for criticality control, for increased business and profit margins, would result in bodily harm, or even death, for workers on site. To effectively make the changes to facility, a balanced approach is necessary to uphold criticality safety and economic viability.
 \end{itemize}
 
 \newpage

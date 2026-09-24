@@ -2,5 +2,5 @@
 <geometry>
   <cell id="1" material="1" region="1 -2" universe="1"/>
   <surface id="1" type="x-plane" boundary="vacuum" coeffs="0.0"/>
-  <surface id="2" type="x-plane" boundary="vacuum" coeffs="6.5"/>
+  <surface id="2" type="x-plane" boundary="vacuum" coeffs="0.925"/>
 </geometry>

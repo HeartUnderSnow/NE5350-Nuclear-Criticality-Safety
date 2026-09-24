@@ -2,9 +2,9 @@
 <materials>
   <material id="1" depletable="true">
     <density units="sum"/>
-    <nuclide name="U234" ao="0.0003619114009814806"/>
-    <nuclide name="U235" ao="0.040490680355008565"/>
-    <nuclide name="U238" ao="0.9589619414796623"/>
-    <nuclide name="U236" ao="0.00018546676434767764"/>
+    <nuclide name="U234" ao="0.0018058074050733889"/>
+    <nuclide name="U235" ao="0.2020338962056507"/>
+    <nuclide name="U238" ao="0.7952348841045406"/>
+    <nuclide name="U236" ao="0.000925412284735334"/>
   </material>
 </materials>

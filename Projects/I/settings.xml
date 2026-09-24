@@ -6,7 +6,7 @@
   <inactive>50</inactive>
   <source type="independent" strength="1.0" particle="neutron">
     <space type="box">
-      <parameters>0.0 0.0 0.0 6.5 0.0 0.0</parameters>
+      <parameters>0.0 0.0 0.0 0.925 0.0 0.0</parameters>
     </space>
   </source>
 </settings>
